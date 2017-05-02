@@ -14,8 +14,9 @@ if reply['status'] != 200:
 elif reply['score'] < 0.5 :
     print ("No adult content were detected on this picture")
 else:
-    # Highly NSFW picture
+	# Highly NSFW picture
 	print ("Censuring NSFW picture...")
+	# Call blur with the highest possible radius and sigma
 	req = requests.get('https://api.pixlab.io/blur',params={'img':img,'key':key,'rad':50,'sig':30})
 	reply = req.json()
 	if reply['status'] != 200:
