@@ -2,7 +2,7 @@ import requests
 import json
 
 # Target Image: Change to any link (Possibly adult) you want or switch to POST if you want to upload your image directly, refer to the sample set for more info.
-img = 'https://i.imgur.com/roMrdr1.png' 
+img = 'https://i.redd.it/oetdn9wc13by.jpg' 
 # Your PixLab key
 key = 'Pixlab_Key'
 
