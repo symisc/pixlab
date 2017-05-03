@@ -2,7 +2,7 @@ import requests
 import json
 
 # Extract a screen capture from a given website
-website = 'https://github.com'
+website = 'https://sqlite.org'
 
 key = 'My_PixLab_Key'
 
