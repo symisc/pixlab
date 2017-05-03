@@ -1,7 +1,7 @@
 import requests
 import json
 
-# Extarct a scrren capture from a given website
+# Extarct a screen capture from a given website
 website = 'https://github.com'
 
 key = 'My_PixLab_Key'
