@@ -11,7 +11,7 @@ require_once "pixlab.php";
  */ 
 
 # Target Image: Feel free to change to whatever image you want
-$img = 'https://i.redd.it/oetdn9wc13by.jpg';
+$img = 'http://cf.broadsheet.ie/wp-content/uploads/2015/03/jeremy-clarkson_3090507b.jpg';
 # Your PixLab key
 $key = 'My_Pix_Key';
 
