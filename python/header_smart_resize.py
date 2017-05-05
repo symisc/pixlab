@@ -15,7 +15,7 @@ if reply['status'] != 200:
 w = reply['width']
 h =  reply['height']
 if w > 800 or h > 600:
-	print("Resizing image from "+str(w)+"x"+str(h)+" to 800x600...")
+	print("Resizing image from "+str(w)+"x"+str(h)+" to near 800x600...")
 	# Invoke smart resize...
 	req = requests.get('https://api.pixlab.io/smartresize',params={'img':img,'key':key,'width':800,'height':600})
 	reply = req.json()
