@@ -9,7 +9,7 @@ require_once "pixlab.php";
  * https://pixlab.io/#/cmd?id=border for more info.
  */
 # Your PixLab key
-$key = '335acbd926c0c5c7b80d2c093cc063d3';
+$key = 'My_Pixlab_Key';
 
 $pix = new Pixlab($key);
 if( !$pix->get('border',array(
