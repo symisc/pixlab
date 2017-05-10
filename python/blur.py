@@ -1,6 +1,6 @@
 import requests
 import json
-# Censure the bird picture
+# Blur the bird picture
 # https://pixlab.io/#/cmd?id=blur for more info.
 req = requests.get('https://api.pixlab.io/blur',params={
   'img':'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg',
