@@ -23,7 +23,7 @@ if( !$pix->get('tagimg',array(
 }
 /* Grab the total number of tags */
 $tags = $pix->json->tags;
-echo "Total number of detected tags: ".count($tags)."\n";
+echo "Total number of tags: ".count($tags)."\n";
 foreach($tags as $tag){
 	echo "Tag = ".$tag->name.", Confidence: ".$tag->confidence."\n";
 }
