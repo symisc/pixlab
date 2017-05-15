@@ -21,8 +21,7 @@ if( !$pix->get('drawtext',array(
 			'top' => 'someone bumps the table',
 			'bottom' => 'right before you win',
 			'cap' => true, # Capitalize text,
-			'strokecolor' => 'black',
-			'key' => $key
+			'strokecolor' => 'black'
 		)) ){
 	echo $pix->get_error_message()."\n";
 	die;
