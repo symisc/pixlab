@@ -15,8 +15,7 @@ $pix = new Pixlab($key);
 if( !$pix->get('blur',array(
 		'img'=>'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg',
 		'radius'=>50,
-		'sigma'=>30,
-		'key'=>$key
+		'sigma'=>30
 	))){
 	echo $pix->get_error_message();
 	die;
