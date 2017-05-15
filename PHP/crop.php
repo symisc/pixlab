@@ -14,7 +14,6 @@ $key = 'My_Pix_Key';
 $pix = new Pixlab($key);
 if( !$pix->get('crop',array(
 		'img' => 'http://cf.broadsheet.ie/wp-content/uploads/2015/03/jeremy-clarkson_3090507b.jpg',
-		'key' => $key,
 		"x" => 164,
 		"y" => 95,
 		"width" => 145,
