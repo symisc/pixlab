@@ -15,8 +15,7 @@ $key = 'My_Pixlab_Key';
 /* Process */
 $pix = new Pixlab($key);
 if( !$pix->get('tagimg',array(
-	'img' => $img,
-	'key' => $key
+	'img' => $img
 	)) ){
 	echo $pix->get_error_message();
 	die;
