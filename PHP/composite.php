@@ -25,8 +25,7 @@ if( !$pix->post('merge',array(
 		   'img' => 'http://orig08.deviantart.net/67d1/f/2010/216/6/7/lol_face_by_bloodyhalfdemon.png',
 		   'x' => 630,
 		   'y' => 95
-		]],
-		'key' => $key
+		]]
 	))){
 	echo $pix->get_error_message();
 	die;
