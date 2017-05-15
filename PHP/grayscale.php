@@ -12,7 +12,7 @@ require_once "pixlab.php";
 $key = 'My_Pix_Key';
 
 $pix = new Pixlab($key);
-if( !$pix->get('grayscale',array('img' => 'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg','key' => $key)) ){
+if( !$pix->get('grayscale',array('img' => 'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg')) ){
 	echo $pix->get_error_message();
 	die;
 }
