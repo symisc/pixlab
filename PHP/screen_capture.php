@@ -12,7 +12,7 @@ $key = 'My_Pix_Key';
 
 $pix = new Pixlab($key);
 /* Note that you can specify the desired width & height and image export format if you want to. Read the command doc at: https://pixlab.io/#/cmd?id=screencapture for additional info */
-if( !$pix->get('screencapture',array('url' => $website,'key' => $key)) ){
+if( !$pix->get('screencapture',array('url' => $website)) ){
 	echo $pix->get_error_message();
 	die;
 }
