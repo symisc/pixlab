@@ -17,7 +17,7 @@ $img_path = './local_img.png';
 
 /* Process */
 $pix = new Pixlab($key);
-if( !$pix->post('nsfw',array('key' => $key), $img_path) ){
+if( !$pix->post('nsfw',array(), $img_path) ){
 	echo $pix->get_error_message()."\n";
 	die;
 }
