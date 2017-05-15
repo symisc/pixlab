@@ -16,8 +16,7 @@ if( !$pix->get('chop',array(
 		'img' => 'http://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg',
 		'height' => 20,
 		'x' => 45,
-		'y' => 72,
-		'key' => $key
+		'y' => 72
 	))){
 	echo $pix->get_error_message();
 	die;
