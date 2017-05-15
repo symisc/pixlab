@@ -5,7 +5,7 @@ import json
 # Use the output link for other purposes such as processing via mogrify, drawrectangles, etc. or simply serving content.
 # https://pixlab.io/#/cmd?id=store for more info.
 
-req = requests.post('https://api.pixlab.io/store',
+req = requests.post('http://api.pixlab.io/store', # Switch to http:// for fast upload
 	files = {'file': open('./local_image.png', 'rb')},
 	data={
 		'comment':'Super Secret Stuff',
