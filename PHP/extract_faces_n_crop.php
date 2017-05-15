@@ -33,7 +33,6 @@ if( count($faces) < 1 ){
 		/* Invoke crop */
 		if( !$pix->get('crop',array(
 			'img' => $img,
-			'key'=> $key,
 			'width'=> $face->width,
 			'height'=> $face->height,
 			'x'=> $face->left,
