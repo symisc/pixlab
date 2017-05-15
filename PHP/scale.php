@@ -16,7 +16,7 @@ $key = 'My_Pix_Key';
 
 /* Process */
 $pix = new Pixlab($key);
-if( !$pix->get('scale',array('img' => $img, 'key' => $key, 'scale' => 50 /* Scale percentage */)) ){
+if( !$pix->get('scale',array('img' => $img, 'scale' => 50 /* Scale percentage */)) ){
 	echo $pix->get_error_message()."\n";
 	die;
 }
