@@ -15,8 +15,7 @@ $pix = new Pixlab($key);
 if( !$pix->get('border',array(
 		'img'   => 'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg',
 		'width' => 20,
-		'color' => 'yellow',
-		'key' => $key
+		'color' => 'yellow'
 	))){
 	echo $pix->get_error_message();
 	die;
