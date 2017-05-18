@@ -24,7 +24,7 @@ if( $score < 0.5 ){
 }else{
 	echo "Censuring NSFW picture...\n";
 	/* Call blur with the highest possible radius and sigma */
-	if( !$pix->get('blur',array('img' => $img,'key'=> $key,'rad' => 50,'sig' =>30)) ){
+	if( !$pix->get('blur',array('img' => $img,'rad' => 50,'sig' =>30)) ){
 		echo $pix->get_error_message();
 	}else{
 		echo "Censured Picture: ".$pix->json->link."\n";
