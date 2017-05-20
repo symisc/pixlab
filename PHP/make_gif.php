@@ -10,7 +10,7 @@ require_once "pixlab.php";
 
 
 # Your PixLab key
-$key = '335acbd926c0c5c7b80d2c093cc063d3';
+$key = 'My_Pixlab_Key';
 
 /* Process */
 $pix = new Pixlab($key);
