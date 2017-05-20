@@ -31,7 +31,7 @@ if( count($faces) < 1 ){
 }else{
 	echo "Censuring faces...\n";
 	/* Call mogrify (Only POST) */
-	if( !$pix->post('mogrify',array('img' => $img,'key'=> $key,'cord' => $faces)) ){
+	if( !$pix->post('mogrify',array('img' => $img,'cord' => $faces)) ){
 		echo $pix->get_error_message();
 	}else{
 		echo "Censured Faces: ".$pix->json->link."\n";
