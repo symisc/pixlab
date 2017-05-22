@@ -38,6 +38,6 @@ if( !$pix->get('drawtext',[
 	]) ){
 	echo $pix->get_error_message()."\n";
 	die;
-  ?>
 }
 echo "New Pic Link: ".$pix->json->link."\n";
+  ?>
