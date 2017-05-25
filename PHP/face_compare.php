@@ -18,8 +18,7 @@ $target = 'https://static01.nyt.com/images/2011/07/31/sunday-review/FACES/FACES-
 $key = 'My_Pix_Key';
 
 /* Verify */
-$pix = new Pixlab($key);
-/* Create the image first */
+
 if( !$pix->get('facecompare',[
 	'src'    => $src,
 	'target' => $target,
