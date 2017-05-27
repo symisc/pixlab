@@ -5,7 +5,7 @@
  */
 require_once "pixlab.php";
 
-# Find a person face in a crowd or group of people. https://pixlab.io/#/cmd?id=facelookup for additional information.
+# Find a person's face in a crowd or group of people. https://pixlab.io/#/cmd?id=facelookup for additional information.
 
 # This is the target face that we are searching for in the people crowd.
 $face = 'http://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/7/9/1341860104423/obama_face.jpg';
