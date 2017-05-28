@@ -14,7 +14,7 @@ $gif = 'http://i.stack.imgur.com/h8Hjm.gif';
 # Static images to be displayed starting from frame 5
 $static = 'http://i.stack.imgur.com/WFr1K.png';
 
-$pix = new Pixlab('335acbd926c0c5c7b80d2c093cc063d3');
+$pix = new Pixlab('My_Pix_Key');
 
 if( !$pix->get('gifcomposite',[
 	'img' => $gif,
