@@ -19,7 +19,7 @@ if reply['status'] != 200:
 
 total = len(reply['faces']) # Total detected faces
 print(str(total)+" faces were detected")
-# Extract each face via crop now 
+# Extract each face now 
 for face in reply['faces']:
 	cord = face['rectangle']
 	print ('Face coordinate: width: ' + str(cord['width']) + ' height: ' + str(cord['height']) + ' x: ' + str(cord['left']) +' y: ' + str(cord['top']))
