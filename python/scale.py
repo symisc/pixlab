@@ -3,9 +3,6 @@ import json
 
 # Resize an image to half its original size hence the 50% field.
 
-import requests
-import json
-
 req = requests.get('https://api.pixlab.io/scale',params={
 	'img': 'https://www.allaboutbirds.org/guide/PHOTO/LARGE/blue_jay_8.jpg',
 	'key':'My_Pix_Key',
