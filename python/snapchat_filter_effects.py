@@ -30,7 +30,7 @@ key = 'My_Pix_Key'
 # If set to True then composite the flower crown. Otherwise, composite the dog stuff.
 draw_crown = False
 
-# Resize and image (Dog parts or the crown flower) to fit the face dimension using smart resize.
+# Resize an image (Dog parts or the crown flower) to fit the face dimension using smartresize.
 def smart_resize(img,width,height):
     print ("Resizing images...")
     req = requests.get('https://api.pixlab.io/smartresize',params={
