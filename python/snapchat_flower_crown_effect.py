@@ -60,7 +60,9 @@ for face in reply['faces']:
 	snap = face
 
 # Make a quick Snapchat filter on top of the last detected face
-
+if total < 1:
+    # No faces were detected
+    exit()
 # The flower crown to be composited on top of the target face
 flower = 'http://data.whicdn.com/images/261686993/original.png'
 
