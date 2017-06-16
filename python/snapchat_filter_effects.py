@@ -63,7 +63,7 @@ if total < 1:
 	
 print(str(total)+" faces were detected")
 
-# This list contain all the coordinates of the regions where the flower crown or the dog part should be
+# This list contain all the coordinates of the regions where the flower crown or the dog parts should be
 # Composited on the target image later using the `merge` command.
 coordinates = []
 
@@ -109,7 +109,7 @@ for face in reply['faces']:
 			20 + cord['width'], # Face width
 			0 # Let Pixlab decide the best height for this picture
 		)
-		# Composite the crown flower at the bone left most region.
+		# Composite the crown flower at the bone most left region.
 		print ("\tCrown flower at: X: " + str(landmarks['bone']['outer_left']['x']) + ", Y: "+str(landmarks['bone']['outer_left']['y']))
 		coordinates.append({
 		   'img': fit_crown, # The resized crown flower
@@ -137,7 +137,7 @@ for face in reply['faces']:
 
 
 
-# Finally, Perform the composite operation when we exit the loop
+# Finally, Perform the composite operation
 print ("Composite operation...")
 req = requests.post('https://api.pixlab.io/merge',
 	headers={'Content-Type':'application/json'},
