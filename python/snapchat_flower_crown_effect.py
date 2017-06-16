@@ -91,8 +91,8 @@ req = requests.post('https://api.pixlab.io/merge',
 		'cord':[
 		{
 		   'img': flower,
-		   'x': snap['rectangle']['left'],
-		   'y': snap['rectangle']['top']-45 # Adjust for optimal effect
+		   'x': snap['landmarks']['bone']['center']['x'],
+		   'y': snap['landmarks']['bone']['center']['y'] # Adjust for optimal effect
 		}]
 	})
 )
