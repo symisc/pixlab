@@ -9,7 +9,7 @@ import json
 # smart resize:           https://pixlab.io/#/cmd?id=smartresize
 # merge:                  https://pixlab.io/#/cmd?id=merge
 # rotate (Optionally):    https://pixlab.io/#/cmd?id=rotate
-# meme (Optionally):       https://pixlab.io/#/cmd?id=meme Draw some funny text
+# meme (Optionally):      https://pixlab.io/#/cmd?id=meme for Drawing some funny text
 # Optionally: blur, grayscale, oilpaint, etc. for cool background effects.
 
 # Target image to composite stuff on. Must contain at least one face.
