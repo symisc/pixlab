@@ -30,7 +30,7 @@ key = 'My_Pix_Key'
 # If set to True then composite the flower crown. Otherwise, composite the dog stuff.
 draw_crown = False
 
-# Resize an image (Dog parts or the crown flower) to fit the face dimension using smartresize.
+# Resize an image (Dog parts or the flower crown) to fit the face dimension using smartresize.
 def smart_resize(img,width,height):
     print ("Resizing images...")
     req = requests.get('https://api.pixlab.io/smartresize',params={
@@ -64,7 +64,7 @@ if total < 1:
 print(str(total)+" faces were detected")
 
 # This list contain all the coordinates of the regions where the flower crown or the dog parts should be
-# Composited on the target image later using the `merge` command.
+# Composited on top of the target image later using the `merge` command.
 coordinates = []
 
 # Iterate all over the detected faces and make our stuff
@@ -103,13 +103,13 @@ for face in reply['faces']:
 	
 	draw_crown = not draw_crown
 	if draw_crown:
-        # Resize the crown flower to fit the face width
+        # Resize the flower crown to fit the face width
 		fit_crown = smart_resize(
 			flower,
 			20 + cord['width'], # Face width
 			0 # Let Pixlab decide the best height for this picture
 		)
-		# Composite the crown flower at the bone most left region.
+		# Composite the flower crown at the bone most left region.
 		print ("\tCrown flower at: X: " + str(landmarks['bone']['outer_left']['x']) + ", Y: "+str(landmarks['bone']['outer_left']['y']))
 		coordinates.append({
 		   'img': fit_crown, # The resized crown flower
@@ -144,12 +144,12 @@ req = requests.post('https://api.pixlab.io/merge',
 	data=json.dumps({
 		'src':img, # The target image.
 		'key':key,
-		'cord': coordinates # The coordinates list filled earlier with the composited image & regions of interest 
+		'cord': coordinates # The coordinates list filled earlier with the resized images (i.e. The flower crown & the dog parts) and regions of interest 
 	})
 )
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
 else:
-    # Optionally call blur, oilpaint, grayscale for cool background effects..
+    # Optionally call blur, oilpaint, grayscale,meme for cool background effects..
     print ("Snap Filter Effect: "+ reply['link'])
