@@ -7,7 +7,7 @@ import json
 # Read more on imgdiff here: https://pixlab.io/#/cmd?id=imgdiff
 
 src = 'https://pixlab.io/images/jdr.jpg' # Source image which is the famous Michael Jordan's crying face.
-target = 'https://pixlab.io/images/jdr_draw.jpg' # Target image which is the same Jordan's face but a MEME is drown on top of it.
+target = 'https://pixlab.io/images/jdr_draw.jpg' # Target image which is the same Jordan's face but a MEME is drawn on top of it.
 
 req = requests.get('https://api.pixlab.io/imgdiff',params={
 	'src': src,
