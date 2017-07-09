@@ -15,7 +15,7 @@ import json
 img = 'https://ak6.picdn.net/shutterstock/videos/10819841/thumb/8.jpg'
 
 # The flower crown to be composited on top of the target face
-flower = 'http://data.whicdn.com/images/261686993/original.png'
+flower = 'http://pixlab.xyz/images/flower_crown.png'
 
 # You PixLab API key
 key = 'My_Pixlab_Key'
