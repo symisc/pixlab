@@ -6,13 +6,24 @@ import json
 # face landmarks:         https://pixlab.io/#/cmd?id=facelandmarks
 # smart resize:           https://pixlab.io/#/cmd?id=smartresize
 # merge:                  https://pixlab.io/#/cmd?id=merge
-# Optionally: blur, grayscale, oilpaint, etc. for cool background effects.
+# Optionally: blur, grayscale, drawtext, oilpaint, etc. for cool background effects.
 
-img = 'http://cf.broadsheet.ie/wp-content/uploads/2015/03/jeremy-clarkson_3090507b.jpg'
+# The following is target image that we'll superpose our filter on top of it.
+# This image must contain at least one face. free free to change the link to whatever your want.
+# Note that you can upload your own images from your app very easily. Refer to the docs for additional info.
+img = 'https://ak6.picdn.net/shutterstock/videos/10819841/thumb/8.jpg'
 
+# The flower crown to be composited on top of the target face
+flower = 'http://data.whicdn.com/images/261686993/original.png'
+
+# You PixLab API key
+key = 'My_Pixlab_Key'
+
+# First off, call `facelandmarks` and extract all present faces plus their landmarks.
+print ("Detecting and extracting facial landmarks..")
 req = requests.get('https://api.pixlab.io/facelandmarks',params={
 	'img': img,
-	'key':'My_PixLab_Key',
+	'key': key,
 })
 reply = req.json()
 if reply['status'] != 200:
@@ -20,11 +31,17 @@ if reply['status'] != 200:
 	exit();
 
 total = len(reply['faces']) # Total detected faces
+if total < 1:
+    # No faces were detected
+    print ("No faces were detected..exiting")
+    exit()
+
 print(str(total)+" faces were detected")
-snap = []
-# Iterate all over the detected faces
+
+# Iterate all over the detected faces and make our flower crown filter..
 for face in reply['faces']:
 	cord = face['rectangle']
+	
 	# Show the face coordinates 
 	print ("Coordinates...")
 	print ('\twidth: ' + str(cord['width']) + ' height: ' + str(cord['height']) + ' x: ' + str(cord['left']) +' y: ' + str(cord['top']))
@@ -56,49 +73,47 @@ for face in reply['faces']:
 	
 	# More landmarks on the docs..
 	
-	# Pick the last face in this loop for the sack of simplicity. Refer to the sample set for a complete example
-	snap = face
+    # Make our flower crown filter now
+	
+	# Resize the flower crown which is quite big right now to exactly the face width using smart resize.
+	print ("Resizing the snap flower crown...")
+	req = requests.get('https://api.pixlab.io/smartresize',params={
+		'img':flower,
+		'key':key,
+		'width': 20 + cord['width'], # Face width
+		'height':0 # Let Pixlab decide the best height for this picture
+		})
+	reply = req.json()
+	if reply['status'] != 200:
+		print (reply['error'])
+		exit()
+	else:
+		flower = reply['link']
+		
+	# Finally, Perform the composite operation
+	print ("Composite operation...")
+	req = requests.post('https://api.pixlab.io/merge',
+		headers={'Content-Type':'application/json'},
+		data=json.dumps({
+			'src':img,
+			'key':key,
+			'cord':[
+			{
+			   'img': flower,
+			   'x': landmarks['bone']['center']['x'],
+			   'y': landmarks['bone']['center']['y'] - 10, # Adjust for optimal effect
+			   'center':   True,
+			   'center_y': True
+			}]
+		})
+	)
+	reply = req.json()
+	if reply['status'] != 200:
+		print (reply['error'])
+		exit()
+	else:
+		# Save the current snap on this face for the next one...
+		img = reply['link']
 
-# Make a quick Snapchat filter on top of the last detected face
-if total < 1:
-    # No faces were detected
-    exit()
-# The flower crown to be composited on top of the target face
-flower = 'http://data.whicdn.com/images/261686993/original.png'
-
-# Resize the flower crown which is quite big right now to exactly the face width using smart resize.
-print ("Resizing the snap flower crown...")
-req = requests.get('https://api.pixlab.io/smartresize',params={
-	'img':flower,
-	'key':'My_PixLab_Key',
-	'width': 20 + snap['rectangle']['width'], # Face width
-	'height':0 # Let Pixlab decide the best height for this picture
-	})
-reply = req.json()
-if reply['status'] != 200:
-	print (reply['error'])
-	exit()
-else:
-    flower = reply['link']
-    
-# Finally, Perform the composite operation
-print ("Composite operation...")
-req = requests.post('https://api.pixlab.io/merge',
-	headers={'Content-Type':'application/json'},
-	data=json.dumps({
-		'src':img,
-		'key':'My_PixLab_Key',
-		'cord':[
-		{
-		   'img': flower,
-		   'x': snap['landmarks']['bone']['outer_left']['x'],
-		   'y': snap['landmarks']['bone']['outer_left']['y'] # Adjust for optimal effect
-		}]
-	})
-)
-reply = req.json()
-if reply['status'] != 200:
-	print (reply['error'])
-else:
-    # Optionally call blur, oilpaint, grayscale for more stuff..
-    print ("Snap Filter Effect: "+ reply['link'])
+# The flower crown at this stage is drawn on all the detected faces..
+print ("Snap Filter Effect: "+ img) # Optionally call blur, oilpaint, drawtext, grayscale for more stuff..
