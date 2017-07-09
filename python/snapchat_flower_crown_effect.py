@@ -2,8 +2,8 @@ import requests
 import json
 
 # Detect all human faces & extract their facial landmarks via `facelandmarks`.
-# And finally mimic the famous flower crown effect.
-# Only three commands are actually needed in order to mimic the Snapchat filters effects:
+# Once done, mimic the famous Snapchat flower crown filter.
+# Only three commands are actually needed in order to mimic the Snapchat filters:
 # face landmarks:         https://pixlab.io/#/cmd?id=facelandmarks
 # smart resize:           https://pixlab.io/#/cmd?id=smartresize
 # merge:                  https://pixlab.io/#/cmd?id=merge
@@ -15,10 +15,10 @@ import json
 img = 'https://ak6.picdn.net/shutterstock/videos/10819841/thumb/8.jpg'
 
 # The flower crown to be composited on top of the target face
-flower = 'http://pixlab.xyz/images/flower_crown.png'
+flower_crown = 'http://pixlab.xyz/images/flower_crown.png'
 
 # You PixLab API key
-key = 'My_Pixlab_Key'
+key = 'Pixlab_Key'
 
 # First off, call `facelandmarks` and extract all present faces plus their landmarks.
 print ("Detecting and extracting facial landmarks..")
@@ -79,7 +79,7 @@ for face in reply['faces']:
 	# Resize the flower crown which is quite big right now to exactly the face width using smart resize.
 	print ("Resizing the snap flower crown...")
 	req = requests.get('https://api.pixlab.io/smartresize',params={
-		'img':flower,
+		'img':flower_crown,
 		'key':key,
 		'width': 20 + cord['width'], # Face width
 		'height':0 # Let Pixlab decide the best height for this picture
@@ -117,4 +117,4 @@ for face in reply['faces']:
 		img = reply['link']
 
 # The flower crown at this stage is drawn on all the detected faces..
-print ("Snap Filter Effect: "+ img) # Optionally call blur, oilpaint, drawtext, grayscale for more stuff..
+print ("\nSnap Filter Effect: "+ img) # Optionally call blur, oilpaint, drawtext, grayscale for more stuff..
