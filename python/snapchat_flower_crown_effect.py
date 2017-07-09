@@ -1,7 +1,8 @@
 import requests
 import json
 
-# Detect all human faces & extract their landmark regions via facelandmarks & make a small Snapchat filter effect.
+# Detect all human faces & extract their facial landmarks via `facelandmarks`.
+# And finally mimic the famous flower crown effect.
 # Only three commands are actually needed in order to mimic the Snapchat filters effects:
 # face landmarks:         https://pixlab.io/#/cmd?id=facelandmarks
 # smart resize:           https://pixlab.io/#/cmd?id=smartresize
