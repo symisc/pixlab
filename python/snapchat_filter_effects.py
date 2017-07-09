@@ -1,7 +1,7 @@
 import requests
 import json
 
-# Mimic the two famous Snapchat filters: The flower crown & the dog parts filter.
+# Mimic the two famous Snapchat filters: The flower crown & the dog facial parts filter.
 # The target image must contain at least one human face. The more faces you got, the more funny it should be!
 # 
 # Only three commands are actually needed in order to mimic the Snapchat filters:
@@ -18,7 +18,7 @@ img = 'https://trekkerscrapbook.files.wordpress.com/2013/09/face-08.jpg'
 # The flower crown.
 flower = 'http://pixlab.xyz/images/flower_crown.png'
 
-# The dog parts: Left & right ears, nose & optionally the tongue
+# The dog facial parts: Left & right ears, nose & optionally the tongue
 dog_left_ear  = 'http://pixlab.xyz/images/dog_left_ear.png'
 dog_right_ear = 'http://pixlab.xyz/images/dog_right_ear.png'
 dog_nose      = 'http://pixlab.xyz/images/dog_nose.png'
