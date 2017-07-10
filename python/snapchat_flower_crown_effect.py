@@ -18,7 +18,11 @@ img = 'https://ak6.picdn.net/shutterstock/videos/10819841/thumb/8.jpg'
 flower_crown = 'http://pixlab.xyz/images/flower_crown.png'
 
 # You PixLab API key
-key = 'Pixlab_Key'
+key = 'My_PixLab_Key'
+
+# This list contain all the coordinates of the regions where the flower crown should be
+# Composited on top of the target face later using the `merge` command.
+coordinates = []
 
 # First off, call `facelandmarks` and extract all present faces plus their landmarks.
 print ("Detecting and extracting facial landmarks..")
@@ -72,10 +76,9 @@ for face in reply['faces']:
 	print ("\tEye Left Outer: X: " + str(landmarks['eye']['left_outer']['x']) + ", Y: "+str(landmarks['eye']['left_outer']['y']))
 	print ("\tEye Right Outer: X: " + str(landmarks['eye']['right_outer']['x']) + ", Y: "+str(landmarks['eye']['right_outer']['y']))
 	
-	# More landmarks on the docs..
+	# More landmarks on the docs..Let's make our flower crown filter now
 	
-    # Make our flower crown filter now
-	
+    	
 	# Resize the flower crown which is quite big right now to exactly the face width using smart resize.
 	print ("Resizing the snap flower crown...")
 	req = requests.get('https://api.pixlab.io/smartresize',params={
@@ -89,32 +92,30 @@ for face in reply['faces']:
 		print (reply['error'])
 		exit()
 	else:
-		flower = reply['link']
-		
-	# Finally, Perform the composite operation
-	print ("Composite operation...")
-	req = requests.post('https://api.pixlab.io/merge',
-		headers={'Content-Type':'application/json'},
-		data=json.dumps({
-			'src':img,
-			'key':key,
-			'cord':[
-			{
-			   'img': flower,
-			   'x': landmarks['bone']['center']['x'],
-			   'y': landmarks['bone']['center']['y'] - 10, # Adjust for optimal effect
-			   'center':   True,
-			   'center_y': True
-			}]
-		})
-	)
-	reply = req.json()
-	if reply['status'] != 200:
-		print (reply['error'])
-		exit()
-	else:
-		# Save the current snap on this face for the next one...
-		img = reply['link']
+		fit_crown = reply['link']
+	    # Composite the flower crown at the bone center region
+        coordinates.append({
+		   'img': fit_crown, # The resized crown flower
+		   'x': landmarks['bone']['center']['x'],
+		   'y': landmarks['bone']['center']['y'] - 10,
+		   'center':   True,
+		   'center_y': True
+        })
 
-# The flower crown at this stage is drawn on all the detected faces..
-print ("\nSnap Filter Effect: "+ img) # Optionally call blur, oilpaint, drawtext, grayscale for more stuff..
+
+# Finally, Perform the composite operation
+print ("Composite operation...")
+req = requests.post('https://api.pixlab.io/merge',
+	headers={'Content-Type':'application/json'},
+	data=json.dumps({
+		'src':img, # The target image.
+		'key':key,
+		'cord': coordinates # The coordinates list filled earlier with the resized images (i.e. The flower crown & the dog parts) and regions of interest 
+	})
+)
+reply = req.json()
+if reply['status'] != 200:
+	print (reply['error'])
+else:
+    # Optionally call blur, oilpaint, grayscale, meme for cool background effects..
+    print ("Snap Filter Effect: "+ reply['link'])
