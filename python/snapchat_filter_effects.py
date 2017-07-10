@@ -30,7 +30,7 @@ key = 'Your_Pixlab_Key'
 # If set to True then composite the flower crown. Otherwise, composite the dog stuff.
 draw_crown = False
 
-# Resize an image (Dog parts or the flower crown) to fit the face dimension using smartresize.
+# Resize an image (Dog facial parts or the flower crown) to fit the face dimension using smartresize.
 def smart_resize(img,width,height):
     print ("Resizing filter image...")
     req = requests.get('https://api.pixlab.io/smartresize',params={
@@ -63,7 +63,7 @@ if total < 1:
 	
 print(str(total)+" faces were detected")
 
-# This list contain all the coordinates of the regions where the flower crown or the dog parts should be
+# This list contain all the coordinates of the regions where the flower crown or the dog facial parts should be
 # Composited on top of the target image later using the `merge` command.
 coordinates = []
 
@@ -109,7 +109,7 @@ for face in reply['faces']:
 			cord['width'] + 20, # Face width
 			0 # Let Pixlab decide the best height for this picture
 		)
-		# Composite the flower crown at the bone most left region.
+		# Composite the flower crown at the bone center region.
 		print ("\tCrown flower at: X: " + str(landmarks['bone']['center']['x']) + ", Y: "+str(landmarks['bone']['center']['y']))
 		coordinates.append({
 		   'img': fit_crown, # The resized crown flower
