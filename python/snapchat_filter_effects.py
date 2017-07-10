@@ -25,14 +25,14 @@ dog_nose      = 'http://pixlab.xyz/images/dog_nose.png'
 dog_tongue    = 'http://pixlab.xyz/images/dog_tongue.png'
 
 # Your PixLab API key
-key = 'My_Pix_Key'
+key = 'Your_Pixlab_Key'
 
 # If set to True then composite the flower crown. Otherwise, composite the dog stuff.
 draw_crown = False
 
 # Resize an image (Dog parts or the flower crown) to fit the face dimension using smartresize.
 def smart_resize(img,width,height):
-    print ("Resizing images...")
+    print ("Resizing filter image...")
     req = requests.get('https://api.pixlab.io/smartresize',params={
 		'img':img,
 		'key':key,
@@ -106,19 +106,21 @@ for face in reply['faces']:
         # Resize the flower crown to fit the face width
 		fit_crown = smart_resize(
 			flower,
-			20 + cord['width'], # Face width
+			cord['width'] + 20, # Face width
 			0 # Let Pixlab decide the best height for this picture
 		)
 		# Composite the flower crown at the bone most left region.
-		print ("\tCrown flower at: X: " + str(landmarks['bone']['outer_left']['x']) + ", Y: "+str(landmarks['bone']['outer_left']['y']))
+		print ("\tCrown flower at: X: " + str(landmarks['bone']['center']['x']) + ", Y: "+str(landmarks['bone']['center']['y']))
 		coordinates.append({
 		   'img': fit_crown, # The resized crown flower
-		   'x': landmarks['bone']['outer_left']['x'],
-		   'y': landmarks['bone']['outer_left']['y']
+		   'x': landmarks['bone']['center']['x'],
+		   'y': landmarks['bone']['center']['y'] + 5,
+		   'center':   True,
+		   'center_y': True
 		})
 	else:
-		# Do the dog parts using the bone left & right regions and the nose coordinates.
-		print ("\tDog Parts Regions...")
+		# Do the dog facial parts using the bone left & right regions and the nose coordinates.
+		print ("\tDog Facial Parts...")
 		coordinates.append({
 			'img': smart_resize(dog_left_ear, cord['width']/2,cord['height']/2),
 			'x': landmarks['bone']['outer_left']['x'], # Adjust to get optimal effect
@@ -131,8 +133,10 @@ for face in reply['faces']:
 		})
 		coordinates.append({
 			'img': smart_resize(dog_nose, cord['width']/2,cord['height']/2),
-			'x': landmarks['nose']['x'] - 18, # Adjust to get optimal effect
-			'y': landmarks['nose']['y'] - 10 # Adjust to get optimal effect
+			'x': landmarks['nose']['x'], # Adjust to get optimal effect
+			'y': landmarks['nose']['y'] + 2, # Adjust to get optimal effect
+			'center':   True,
+			'center_y': True
 		})
 
 
