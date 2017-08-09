@@ -6,6 +6,7 @@
 require_once "pixlab.php";
 
 # Target Image: Change to any link (Possibly adult) you want or switch to POST if you want to upload your image directly, refer to the sample set for more info.
+# The target API endpoint we'll be using here: nsfw (https://pixlab.io/cmd?id=nsfw).
 $img = 'https://i.redd.it/oetdn9wc13by.jpg';
 # Your PixLab key
 $key = 'My_Pixlab_Key';
