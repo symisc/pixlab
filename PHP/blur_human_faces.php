@@ -5,8 +5,7 @@
  */
 require_once "pixlab.php";
 
-
-# Detect all human faces in a given image via facedetect and blur all of them via mogrify.
+# Detect all human faces in a given image via `facedetect` and blur all of them via `mogrify`.
 # https://pixlab.io/#/cmd?id=facedetect & https://pixlab.io/#/cmd?id=mogrify for additional information.
 
 # Target Image: Feel free to change to whatever image you want
