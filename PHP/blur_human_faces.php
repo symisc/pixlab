@@ -6,9 +6,8 @@
 require_once "pixlab.php";
 
 
-/* Blur all human faces present in a given image by invoking 'facedetect' first which return the rectangle coordinates 
- * of all human faces present & then invoke 'mogrify' to censure those faces.
- */ 
+# Detect all human faces in a given image via facedetect and blur all of them via mogrify.
+# https://pixlab.io/#/cmd?id=facedetect & https://pixlab.io/#/cmd?id=mogrify for additional information.
 
 # Target Image: Feel free to change to whatever image you want
 $img = 'http://cf.broadsheet.ie/wp-content/uploads/2015/03/jeremy-clarkson_3090507b.jpg';
