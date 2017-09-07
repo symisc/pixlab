@@ -6,7 +6,7 @@
 require_once "pixlab.php";
 
 
-/* Censure all human faces present in a given image by invoking 'facedetect' first which return the rectangle coordinates 
+/* Blur all human faces present in a given image by invoking 'facedetect' first which return the rectangle coordinates 
  * of all human faces present & then invoke 'mogrify' to censure those faces.
  */ 
 
