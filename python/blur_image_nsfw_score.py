@@ -6,7 +6,7 @@ img = 'https://i.redd.it/oetdn9wc13by.jpg'
 # Your PixLab key
 key = 'Pixlab_Key'
 
-# Censure an image based on its NSFW score
+# Blur an image based on its NSFW score
 req = requests.get('https://api.pixlab.io/nsfw',params={'img':img,'key':key})
 reply = req.json()
 if reply['status'] != 200:
