@@ -1,9 +1,9 @@
 import requests
 import json
 
-# Find a person's face in a crowd or group of people. https://pixlab.io/#/cmd?id=facelookup for additional information.
+# Find a person's face in a crowd or group of people. https://pixlab.io/cmd?id=facelookup for additional information.
 
-# This is the target face that we are searching for in the people crowd.
+# This is the target face we are looking for.
 face = 'http://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/7/9/1341860104423/obama_face.jpg'
 # The people crowd to look on
 crowd = 'http://www.acclaimimages.com/_gallery/_free_images/0519-0908-1001-0556_president_barack_obama_walking_with_a_crowd_of_people_o.jpg'
