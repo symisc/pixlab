@@ -2,7 +2,12 @@ import requests
 import json
 # Given an image with human readable characters. Detect input language & extract text content from there.
 # https://pixlab.io/#/cmd?id=ocr for additional information.
-req = requests.get('https://api.pixlab.io/ocr',params={'img':'http://quotesten.com/wp-content/uploads/2016/06/Confucius-Quote.jpg','key':'My_PixLab_Key'})
+req = requests.get('https://api.pixlab.io/ocr',params={
+	'img':'http://quotesten.com/wp-content/uploads/2016/06/Confucius-Quote.jpg',
+	'orientation':True, # Correct text orientation
+	'nl':True, # Output new lines if any
+	'key':'My_PixLab_Key'
+})
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
