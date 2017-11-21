@@ -16,7 +16,7 @@ $key = 'My_PixLab_Key';
 
 /* Process */
 $pix = new Pixlab($key);
-if( !$pix->get('ocr',array('img' => $img)) ){
+if( !$pix->get('ocr',array('img' => $img, 'orientation' => true, 'nl' => true)) ){
 	echo $pix->get_error_message()."\n";
 	die;
 }
