@@ -1,5 +1,5 @@
-# Composite a static image on top of a this GIF which should be displayed starting from the frame number 5
-# If you want to composite multiple images, the use the 'merge' command instead.
+# Composite a static image on top of a GIF.
+# If you want to composite multiple images, then use the `merge` command instead.
 
 import requests
 import json
