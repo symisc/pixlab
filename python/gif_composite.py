@@ -4,7 +4,7 @@
 import requests
 import json
 
-# https://pixlab.io/#/cmd?id=gifcomposite
+# https://pixlab.io/cmd?id=gifcomposite
 
 gif = 'http://i.stack.imgur.com/h8Hjm.gif'
 # Static images to be displayed starting from frame 5
@@ -16,7 +16,7 @@ req = requests.get('https://api.pixlab.io/gifcomposite',params={
         'x':10,
 	'y':30,
 	'frame': 5, # Display the result starting from frame number 5
-	'key':'Pix_Key',
+	'key':'Pix_Key'
 })
 reply = req.json()
 if reply['status'] != 200:
