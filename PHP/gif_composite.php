@@ -21,7 +21,7 @@ if( !$pix->get('gifcomposite',[
 	'composite' => $static,
 	'x' => 10,
 	'y' => 30,
-	'frame' => 5, #Display the result starting from frame number 5
+	'frame' => 5, # Display the result starting from frame number 5
 ]) ){
 	echo $pix->get_error_message()."\n";
 	die;
