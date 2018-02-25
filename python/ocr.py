@@ -6,6 +6,7 @@ req = requests.get('https://api.pixlab.io/ocr',params={
 	'img':'http://quotesten.com/wp-content/uploads/2016/06/Confucius-Quote.jpg',
 	'orientation':True, # Correct text orientation
 	'nl':True, # Output new lines if any
+	#'lang': 'en', # Uncomment if you are dealing with English language only 
 	'key':'My_PixLab_Key'
 })
 reply = req.json()
