@@ -18,4 +18,4 @@ else:
 	# Iterate over all extracted words
 	for box in reply['bbox']:
 		print ("Word: " + box['word'])
-		print ("BBox - X: " + str(box['x']) + " Y: " + str(box['y']) + " Width: " + str(box['w']) + " Height: " + str(box['h']))
+		print ("Bounding box - X: " + str(box['x']) + " Y: " + str(box['y']) + " Width: " + str(box['w']) + " Height: " + str(box['h']))
