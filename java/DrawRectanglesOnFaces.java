@@ -1,8 +1,8 @@
 import java.io.IOException;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONArray;
 
 import okhttp3.HttpUrl;
 import okhttp3.MediaType;
@@ -11,38 +11,44 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class makeGif {
-	// Generate GIF from a set of static image
-	// https://pixlab.io/#/cmd?id=makegif for additional information.
+public class DrawRectanglesOnFaces {
+	// Mark Jeremy's face by drawing a rectangle on it. The rectangle coordinates was obtained from the facedetect command and passed untouched to this command. 
+	// Refer to the command page https://pixlab.io/#/cmd?id=drawrectangles for more info.
+	
+	// Target image
+	private static String img = "http://cf.broadsheet.ie/wp-content/uploads/2015/03/jeremy-clarkson_3090507b.jpg";
+	
+    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+
+	// Your PixLab key
+	private static String key = "Pix_Key";
 	
     static OkHttpClient client = new OkHttpClient();
-    
-    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
 	public static void main(String[] args) throws IOException, JSONException {
 		
 		HttpUrl httpUrl = new HttpUrl.Builder()
                 .scheme("https")
                 .host("api.pixlab.io")
-                .addPathSegment("makegif").build();
-		
-		JSONArray Obj = new JSONArray();
-		Obj.put(new JSONObject().append("img", "https://cdn1.iconfinder.com/data/icons/human-6/48/266-512.png"));
-		Obj.put(new JSONObject().append("img", "https://cdn1.iconfinder.com/data/icons/human-6/48/267-512.png"));
-		Obj.put(new JSONObject().append("img", "https://cdn1.iconfinder.com/data/icons/human-6/48/278-512.png"));
-		Obj.put(new JSONObject().append("img", "https://cdn1.iconfinder.com/data/icons/human-6/48/279-512.png"));
+                .addPathSegment("drawrectangles").build();
+
+		JSONObject Obj1 = new JSONObject();
+		Obj1.append("x", "164");
+		Obj1.append("y", "95");
+		Obj1.append("width", "145");
+		Obj1.append("height", "145");
 		
 		JSONObject jObj = new JSONObject();
-		jObj.append("key", "Pix_Key");
-		jObj.append("frames", Obj.toString());
+		jObj.append("img", img);
+		jObj.append("cord", new JSONArray().put(Obj1));
+		jObj.append("key", key);
 		
 		RequestBody body = RequestBody.create(JSON, jObj.toString());
 
 		Request requesthttp = new Request.Builder()
+                .addHeader("Content-Type","application/json")
                 .url(httpUrl)
                 .post(body)
-                .addHeader("content-type", "application/json; charset=utf-8")
-
                 .build();
 		Response response = client.newCall(requesthttp).execute();
 
@@ -51,9 +57,8 @@ public class makeGif {
 			System.out.println("Error :: " + jResponse.getString("error"));
 			System.exit(1);
 		}else {
-			System.out.println("GIF location: "+ jResponse.getString("link"));
+			System.out.println("Picture Link: "+ jResponse.getString("link"));
 		}
-
 	}
 
 }
