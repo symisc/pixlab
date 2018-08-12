@@ -1,10 +1,7 @@
 import requests
 import json
 
-
-# Detect all human faces present in a given image and
-# try to guess their emotions, age and gender.
-
+# Detect all human faces present in a given image and try to guess their age, gender and emotion state via their facial shapes
 
 # Target image: Feel free to change to whatever image holding as many human faces as you want
 img = 'http://www.scienceforums.com/uploads/1282315190/gallery_1625_35_9165.jpg'
