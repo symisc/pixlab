@@ -25,7 +25,7 @@ $key = 'My_PixLab_Key';
 $pix = new Pixlab($key);
 if( !$pix->get('docscan',[
 	'img' => $passport,  /* Passport scanned image */ 
-	'type' => 'passport' /* Type pf document we are going to scan */ 
+	'type' => 'passport' /* Type of document we are going to scan */ 
 	]) ){
 	echo $pix->get_error_message()."\n";
 	die;
