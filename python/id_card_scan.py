@@ -7,7 +7,7 @@ import json
 # so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/#/cmd?id=docscan for additional information.
+# https://pixlab.io/cmd?id=docscan for additional information.
 
 req = requests.get('https://api.pixlab.io/docscan',params={
 	'img':'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg', # ID Card sample
