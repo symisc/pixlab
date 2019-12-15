@@ -31,5 +31,5 @@ else:
 	print ("\tDate Of Birth: " + reply['fields']['dateOfBirth'])
 	print ("\tSex: "           + reply['fields']['sex'])
 	print ("\tDate Of Expiry: "    + reply['fields']['dateOfExpiry'])
-	print ("\tPersonal Number: "   + reply['fields']['personalNumber'])
+	print ("\tPersonal Number: "   + reply['fields']['personalNumber']) # Optional field and may not be returned when not set by the issuing country.
 	print ("\tFinal Check Digit: " + reply['fields']['finalcheckDigit'])
