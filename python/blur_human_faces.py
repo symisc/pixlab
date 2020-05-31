@@ -1,14 +1,14 @@
 import requests
 import json
 
-img = 'http://anewscafe.com/wp-content/uploads/2012/05/Brave-Faces-Group-shot.jpg' 
+imgUrl = 'https://pixlab.io/images/m3.jpg' # Target picture we want to blur any face on
 
-# Detect all human faces in a given image via facedetect and blur all of them via mogrify.
-# https://pixlab.io/#/cmd?id=facedetect & https://pixlab.io/#/cmd?id=mogrify for additional information.
+# Detect all human faces in a given image via /facedetect first and blur all of them later via /mogrify.
+# https://pixlab.io/cmd?id=facedetect & https://pixlab.io/cmd?id=mogrify for additional information.
 
 req = requests.get('https://api.pixlab.io/facedetect',params={
-	'img': img,
-	'key':'Pix_Key',
+	'img': imgUrl,
+	'key':'PIXLAB_API_KEY',
 })
 reply = req.json()
 if reply['status'] != 200:
@@ -23,14 +23,14 @@ if total < 1:
 # Pass the detected faces coordinates untouched to mogrify 
 coordinates = reply['faces']
 
-# Call mogrify & proceed to the censure
+# Call mogrify & blur the face(s)
 req = requests.post('https://api.pixlab.io/mogrify',headers={'Content-Type':'application/json'},data=json.dumps({
-	'img': img,
-	'key':'Pix_Key',
-	'cord': coordinates #The field of interest
+	'img': imgUrl,
+	'key':'PIXLAB_API_KEY',
+	'cord': coordinates # The field of interest
 }))
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
 else:
-	print ("Censured pic location: "+ reply['link'])
+	print ("Blurred Picture URL: "+ reply['ssl_link'])
