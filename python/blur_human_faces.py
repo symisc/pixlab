@@ -20,7 +20,8 @@ print(str(total)+" faces were detected")
 if total < 1:
 	# No faces were detected, exit immediately
 	exit()
-# Pass the detected faces coordinates untouched to mogrify 
+
+# Pass the facial coordinates for each detected face untouched to mogrify 
 coordinates = reply['faces']
 
 # Call mogrify & blur the face(s)
