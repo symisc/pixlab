@@ -4,7 +4,7 @@ import json
 imgUrl = 'https://pixlab.io/images/m3.jpg' # Target picture we want to blur any face on
 
 # Detect all human faces in a given image via /facedetect first and blur all of them later via /mogrify.
-# https://pixlab.io/cmd?id=facedetect & https://pixlab.io/cmd?id=mogrify for additional information.
+# https://pixlab.io/cmd?id=facedetect and https://pixlab.io/cmd?id=mogrify for additional information.
 
 req = requests.get('https://api.pixlab.io/facedetect',params={
 	'img': imgUrl,
