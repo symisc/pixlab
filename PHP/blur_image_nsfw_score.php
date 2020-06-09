@@ -9,10 +9,10 @@ require_once "pixlab.php";
 # The target API endpoint we'll be using here: nsfw (https://pixlab.io/cmd?id=nsfw).
 $img = 'https://i.redd.it/oetdn9wc13by.jpg';
 
-# Your PixLab key
-$key = 'My_Pixlab_Key';
+# Your PixLab API key
+$key = 'PIXLAB_API_KEY';
 
-# Blur an image based on its NSFW score
+# Censor an image based according to its NSFW score
 $pix = new Pixlab($key);
 /* Invoke NSFW */
 if( !$pix->get('nsfw',array('img' => $img)) ){
@@ -24,12 +24,12 @@ $score = $pix->json->score;
 if( $score < 0.5 ){
 	echo "No adult content were detected on this picture\n";
 }else{
-	echo "Censuring NSFW picture...\n";
+	echo "Censoring NSFW picture...\n";
 	/* Call blur with the highest possible radius and sigma */
 	if( !$pix->get('blur',array('img' => $img,'rad' => 50,'sig' =>30)) ){
 		echo $pix->get_error_message();
 	}else{
-		echo "Censured Picture: ".$pix->json->link."\n";
+		echo "Blurred Picture URL: ".$pix->json->link."\n";
 	}
 }
 ?>
