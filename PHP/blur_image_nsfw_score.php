@@ -12,7 +12,7 @@ $img = 'https://i.redd.it/oetdn9wc13by.jpg';
 # Your PixLab API key
 $key = 'PIXLAB_API_KEY';
 
-# Censor an image based according to its NSFW score
+# Censor an image according to its NSFW score
 $pix = new Pixlab($key);
 /* Invoke NSFW */
 if( !$pix->get('nsfw',array('img' => $img)) ){
