@@ -3,7 +3,7 @@ import json
 
 # Target Image: Change to any link (Possibly adult) you want or switch to POST if you want to upload your image directly, refer to the sample set for more info.
 img = 'https://i.redd.it/oetdn9wc13by.jpg' 
-# Your PixLab API Key. Obtain from https://pixlab.io/dashboard
+# Your PixLab API Key. Get yours from https://pixlab.io/dashboard
 key = 'PIXLAB_API_KEY'
 
 # Censor an image according to its NSFW score
