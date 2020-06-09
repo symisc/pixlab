@@ -9,7 +9,7 @@ require_once "pixlab.php";
 # The target API endpoint we'll be using here: nsfw (https://pixlab.io/cmd?id=nsfw).
 $img = 'https://i.redd.it/oetdn9wc13by.jpg';
 
-# Your PixLab API key
+# Your PixLab API key. Get yours from https://pixlab.io/dashboard
 $key = 'PIXLAB_API_KEY';
 
 # Censor an image according to its NSFW score
