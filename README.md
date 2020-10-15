@@ -1,5 +1,7 @@
 # PixLab Announcments & Tutorials
 * [PixLab API 1.9.72 Released](https://blog.pixlab.io/2020/08/pixlab-api-1972-released)
+* [Detect & Blur Faces Programmatically](https://dzone.com/articles/detect-and-blur-faces-programmatically)
+* [Talkie OCR - iOS app based on PixLab OCR Released](https://blog.pixlab.io/2020/10/talkie-ocr-image-to-speech-now-on-the-app-store)
 * [Filter Image Uploads According to their NSFW Score ](https://dev.to/unqlite_db/filter-image-uploads-according-to-their-nsfw-score-15be)
 * [Passports, Travel Documents & ID Cards Scan Available through the PixLab API](https://blog.pixlab.io/2020/06/passport-docscan-api-endpoint)
 * [ASCII ART Camera Effect Model Now Available on the Unity Asset Store](https://blog.pixlab.io/2020/05/ascii-art-camera-effect-model-now-available-in-the-unity-asset-store)
