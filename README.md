@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [https://blog.pixlab.io/2020/11/modern-passports-structure-bulk-scan-apis](https://blog.pixlab.io/2020/11/modern-passports-structure-bulk-scan-apis)
 * [PixLab API 1.9.72 Released](https://blog.pixlab.io/2020/08/pixlab-api-1972-released)
 * [Detect & Blur Faces Programmatically](https://dzone.com/articles/detect-and-blur-faces-programmatically)
 * [Talkie OCR - iOS app based on PixLab OCR Released](https://blog.pixlab.io/2020/10/talkie-ocr-image-to-speech-now-on-the-app-store)
