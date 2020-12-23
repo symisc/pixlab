@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [Implement a Minimalistic KYC Form & Identify Verification Check](https://dev.to/unqlite_db/implement-a-minimalistic-kyc-form-identify-verification-check-36f5)
 * [Modern Passport Structure & Bulk Scan APIs](https://blog.pixlab.io/2020/11/modern-passports-structure-bulk-scan-apis)
 * [PixLab API 1.9.72 Released](https://blog.pixlab.io/2020/08/pixlab-api-1972-released)
 * [Detect & Blur Faces Programmatically](https://dzone.com/articles/detect-and-blur-faces-programmatically)
