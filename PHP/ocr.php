@@ -6,13 +6,13 @@
 require_once "pixlab.php";
 
 # Given an image with human readable characters. Detect input language & extract text content from there.
-# https://pixlab.io/#/cmd?id=ocr for additional information.
+# https://pixlab.io/cmd?id=ocr for additional information.
 
 /* Target image with human readable text input */
 $img = 'http://quotesten.com/wp-content/uploads/2016/06/Confucius-Quote.jpg';
 
-# Your PixLab key
-$key = 'My_PixLab_Key';
+# Your PixLab API Key. Get yours from https://pixlab.io/dashboard
+$key = 'PIXLAB_API_KEY';
 
 /* Process */
 $pix = new Pixlab($key);
