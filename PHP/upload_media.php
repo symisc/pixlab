@@ -5,11 +5,11 @@
  */
 require_once "pixlab.php";
 
-# Upload a local image to the remote https://pixlab.xyz storage server or your own S3 bucket depending on the configuration from your dashboard.
+# Upload a local image to the remote https://pixlab.xyz storage server or your own S3 bucket depending on the configuration on the PixLab dashboard.
 # Use the output link for other purposes such as processing via mogrify, drawrectangles, etc. or simply serving content.
-# https://pixlab.io/#/cmd?id=store for more info.
+# https://pixlab.io/cmd?id=store for more info.
 
-$img_path = './loca_file.png';
+$img_path = './local_media_file.png';
 
 /* Process */
 $pix = new Pixlab('My_Pix_Key');
