@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [New Gender/Age Classification Model Deployed for the PixLab API](https://blog.pixlab.io/2021/09/new-gender-age-detection-model-deployed)
 * [PixLab Annotate - Online batch image annotation, labeling and segmentation tool](https://annotate.pixlab.io/)
 * [Introducing the Pixel Generate API Endpoint](https://blog.pixlab.io/2021/02/introducing-the-pixel-generate-api-endpoint)
 * [Implement a Minimalistic KYC Form & Identify Verification Check](https://dev.to/unqlite_db/implement-a-minimalistic-kyc-form-identify-verification-check-36f5)
