@@ -12,7 +12,7 @@ import json
 req = requests.get('https://api.pixlab.io/docscan',params={
 	'img':'https://pixlab.xyz/images/pixlab-uae-id.jpg', # UAE ID Card Input image (https://pixlab.xyz/images/pixlab-uae-id.jpg). POST method for direct upload is also supported
 	'type':'idcard', # We are expecting an ID card
-	'country': 'uae', # rom the Emirates, we support also Malaysia/India/Singapore/US and Passports
+	'country': 'uae', # from the Emirates, we support also Malaysia/India/Singapore/US and Passports
 	'key':'PIXLAB_API_KEY' # Your PixLab API key. Get yours from https://console.pixlab.io/
 })
 reply = req.json()
