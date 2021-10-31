@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [Full Scan Support for Emirates (UAE) ID/Residence Cards with PP-OCR Algorithm Overview](https://blog.pixlab.io/2021/10/document-scan-support-for-united-arab-emirates-uae-id-residence-cards)
 * [New Gender/Age Classification Model Deployed for the PixLab API](https://blog.pixlab.io/2021/09/new-gender-age-detection-model-deployed)
 * [PixLab Annotate - Online batch image annotation, labeling and segmentation tool](https://annotate.pixlab.io/)
 * [Introducing the Pixel Generate API Endpoint](https://blog.pixlab.io/2021/02/introducing-the-pixel-generate-api-endpoint)
