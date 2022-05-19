@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [Generate funny memes programmatically with the PixLab API](https://codewithkrishna.hashnode.dev/generate-funny-memes-programmatically)
 * [Detect & Blur Faces on a Flutter Mobile App using the PixLab API](https://dev.to/hrishiksh/detect-and-blur-faces-in-flutter-using-pixlab-api-m5a)
 * [Full Scan Support for Emirates (UAE) ID/Residence Cards with PP-OCR Algorithm Overview](https://blog.pixlab.io/2021/10/document-scan-support-for-united-arab-emirates-uae-id-residence-cards)
 * [New Gender/Age Classification Model Deployed for the PixLab API](https://blog.pixlab.io/2021/09/new-gender-age-detection-model-deployed)
