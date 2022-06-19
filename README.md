@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [PixLab’s Document Scanner now able to scan Driving License issued by any U.S. state](https://blog.pixlab.io/2022/06/pixlabs-docscan-now-able-to-scan-us-drivers-licenses-issued-by-jurisdictions-from-all-the-50-us-states)
 * [Step-by-step guide to do e-KYC in your app](https://medium.com/@hrishikeshb2pathak/step-by-step-guide-to-do-e-kyc-in-your-app-c3b4e240617)
 * [Generate funny memes programmatically with the PixLab API](https://codewithkrishna.hashnode.dev/generate-funny-memes-programmatically)
 * [Detect & Blur Faces on a Flutter Mobile App using the PixLab API](https://dev.to/hrishiksh/detect-and-blur-faces-in-flutter-using-pixlab-api-m5a)
