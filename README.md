@@ -1,4 +1,5 @@
 # PixLab Announcments & Tutorials
+* [Detect and Blur Human Faces on Your Website Using JavaScript via the PixLab API](https://betterprogramming.pub/detect-and-blur-human-faces-on-your-website-8c4a2d69a538)
 * [Introducing FACEIO - Facial Authentication for the Web](https://dev.to/unqlite_db/introducing-faceio-facial-authentication-for-the-web-3i71)
 * [PixLab’s Document Scanner now able to scan Driving License issued by any U.S. state](https://blog.pixlab.io/2022/06/pixlabs-docscan-now-able-to-scan-us-drivers-licenses-issued-by-jurisdictions-from-all-the-50-us-states)
 * [Step-by-step guide to do e-KYC in your app](https://medium.com/@hrishikeshb2pathak/step-by-step-guide-to-do-e-kyc-in-your-app-c3b4e240617)
