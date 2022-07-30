@@ -1,4 +1,5 @@
-# PixLab Announcments & Tutorials
+# [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [How to Authenticate a User with Face Recognition in React.js](https://www.freecodecamp.org/news/authenticate-with-face-recognition-reactjs/)
 * [How to Authenticate a User via Face Recognition in Your Web Application](https://hackernoon.com/how-to-authenticate-a-user-via-face-recognition-in-your-web-application)
 * [Detect and Blur Human Faces on Your Website Using JavaScript via the PixLab API](https://betterprogramming.pub/detect-and-blur-human-faces-on-your-website-8c4a2d69a538)
 * [Introducing FACEIO - Facial Authentication for the Web](https://dev.to/unqlite_db/introducing-faceio-facial-authentication-for-the-web-3i71)
