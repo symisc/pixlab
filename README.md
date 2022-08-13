@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Log in/Sign up form using FaceIO, Next.js and Tailwind CSS](https://medium.com/@thiongojohn91/ng-log-in-sign-up-form-using-faceio-next-js-and-tailwind-css-e463a56aa814)
 * [How to Authenticate a User with Face Recognition in React.js](https://www.freecodecamp.org/news/authenticate-with-face-recognition-reactjs/)
 * [How to Authenticate a User via Face Recognition in Your Web Application](https://hackernoon.com/how-to-authenticate-a-user-via-face-recognition-in-your-web-application)
 * [Detect and Blur Human Faces on Your Website Using JavaScript via the PixLab API](https://betterprogramming.pub/detect-and-blur-human-faces-on-your-website-8c4a2d69a538)
