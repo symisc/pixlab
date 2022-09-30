@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Using React-Typescript With FaceIO for User Face Authentication](https://hackernoon.com/using-react-typescript-with-faceio-for-user-face-authentication)
 * [How to Filter NSFW Images and Programmatically Blur Them](https://hackernoon.com/how-to-filter-nsfw-images-and-programmatically-blur-them)
 * [Log in/Sign up form using FaceIO, Next.js and Tailwind CSS](https://medium.com/@thiongojohn91/ng-log-in-sign-up-form-using-faceio-next-js-and-tailwind-css-e463a56aa814)
 * [How to use Facial Recognition to Enhance user Experience on your Website using FaceIO](https://sosha.hashnode.dev/how-to-use-facial-recognition-to-enhance-user-experience)
