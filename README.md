@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [FACEIO's fio.js V1.9 Released with Face Duplication Prevention](https://blog.pixlab.io/2022/10/fiojs-190-released-with-face-duplication-prevention)
 * [Filter Image Uploads According to their NSFW Score using the PixLab API](https://itnext.io/how-to-filter-nsfw-images-and-programmatically-blur-them-2806f275daac)
 * [Using React-Typescript With FaceIO for User Face Authentication](https://hackernoon.com/using-react-typescript-with-faceio-for-user-face-authentication)
 * [How to Filter NSFW Images and Programmatically Blur Them](https://hackernoon.com/how-to-filter-nsfw-images-and-programmatically-blur-them)
