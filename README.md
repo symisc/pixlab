@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [NPM Package for FACEIO's fio.js Released](https://www.npmjs.com/package/@faceio/fiojs)
+* [Implementing Web based Facial Authentication with FACEIO's NPM Package](https://dev.to/face/integrating-facial-authentication-with-fiojs-1jie)
 * [Learn How To Scan US Driver’s Licenses and Passports via Pixlab’s “Docscan” API endpoint](https://betterprogramming.pub/how-to-scan-us-drivers-license-and-passport-using-ai-361fc3e0803d)
 * [FACEIO's fio.js V1.9 Released with Face Duplication Prevention](https://blog.pixlab.io/2022/10/fiojs-190-released-with-face-duplication-prevention)
 * [Filter Image Uploads According to their NSFW Score using the PixLab API](https://itnext.io/how-to-filter-nsfw-images-and-programmatically-blur-them-2806f275daac)
