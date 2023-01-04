@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Implement a Facial Recognition Authentication Using React.js and TailwindCSS](https://betterprogramming.pub/replace-your-auth-system-with-facial-recognition-using-reactjs-and-tailwindcss-9af4898ab5a2)
 * [NPM Package for FACEIO's fio.js Released](https://www.npmjs.com/package/@faceio/fiojs)
 * [Implementing Web based Facial Authentication with FACEIO's NPM Package](https://dev.to/face/integrating-facial-authentication-with-fiojs-1jie)
 * [Learn How To Scan US Driver’s Licenses and Passports via Pixlab’s “Docscan” API endpoint](https://betterprogramming.pub/how-to-scan-us-drivers-license-and-passport-using-ai-361fc3e0803d)
