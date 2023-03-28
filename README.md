@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Facial Authentication using FACEIO and Vue.Js](https://levelup.gitconnected.com/face-authentication-using-faceio-and-vue-js-319671a67d5b)
 * [Livneness Detection & Face Anti-Spoofing Security Feature Available for FACEIO](https://blog.pixlab.io/2023/02/face-spoofing-livneness-detection-and-presentation-attacks-prevention-security-feature-available-for-faceio)
 * [FACEIO - New Age for Face Authentication](https://www.analyticsvidhya.com/blog/2023/02/faceio-app-new-age-face-authentication/)
 * [Implement a Facial Recognition Authentication Using React.js and TailwindCSS](https://betterprogramming.pub/replace-your-auth-system-with-facial-recognition-using-reactjs-and-tailwindcss-9af4898ab5a2)
