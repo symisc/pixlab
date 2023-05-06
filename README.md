@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Streamlining User Experience with Facial Recognition: A Guide to FaceIO and ReactJS Integration](https://levelup.gitconnected.com/streamlining-user-experience-with-facial-recognition-a-guide-to-faceio-and-reactjs-integration-6059723913fa)
 * [How To Use Face Recognition for Authentication on a Web Application](https://dzone.com/articles/how-to-use-face-recognition-for-authentication-in)
 * [Facial Authentication using FACEIO and Vue.Js](https://levelup.gitconnected.com/face-authentication-using-faceio-and-vue-js-319671a67d5b)
 * [Livneness Detection & Face Anti-Spoofing Security Feature Available for FACEIO](https://blog.pixlab.io/2023/02/face-spoofing-livneness-detection-and-presentation-attacks-prevention-security-feature-available-for-faceio)
