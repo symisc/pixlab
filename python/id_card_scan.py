@@ -18,7 +18,7 @@ import json
 req = requests.get('https://api.pixlab.io/docscan',params={
 	'img':'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg', # ID Card sample
 	'type':'idcard', # We are expecting a Malaysian (MyKAD) ID card
-	'country': 'my', # Malysia Country Code
+	'country': 'my', # Malaysia Country Code
 	'key':'PIXLAB_API_KEY' # Visit https://console.pixlab.io/ to get your API key
 })
 reply = req.json()
@@ -43,8 +43,8 @@ else:
 		print ("\tSex: " + reply['fields']['sex'])
 	if "race" in reply['fields']:
 		print ("\tRace: " + reply['fields']['race'])
-	if "birth" in reply['fields']:
-		print ("\tDate of birth: " + reply['fields']['birth'])
+	if "dateOfBirth" in reply['fields']:
+		print ("\tDate of birth: " + reply['fields']['dateOfBirth'])
 	if "birth_country" in reply['fields']:
 		print ("\tCountry of birth: " + reply['fields']['birth_country'])
 	if "nationality" in reply['fields']:
