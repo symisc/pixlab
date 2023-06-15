@@ -3,6 +3,12 @@ import json
 
 # Given a government issued ID card from Malaysia, Singapore, etc., extract the user face and parse all fields.
 #
+# Usage sample of the ID card scanner from PixLab.
+#
+# In this sample, we shall scan ID Card from Malaysia (MyKAD); 
+# therefore we will extract the user's face, date of birth, full name, address,
+# and religion if available.
+#
 # PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
 # so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
@@ -11,9 +17,9 @@ import json
 
 req = requests.get('https://api.pixlab.io/docscan',params={
 	'img':'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg', # ID Card sample
-	'type':'idcard', # We are expecting an ID card
-	'country': 'malaysia', # from Malysia. You can use the 'my' country code also
-	'key':'PIXLAB_API_KEY' # https://pixlab.io/dashboard
+	'type':'idcard', # We are expecting a Malaysian (MyKAD) ID card
+	'country': 'my', # Malysia Country Code
+	'key':'PIXLAB_API_KEY' # Visit https://console.pixlab.io/ to get your API key
 })
 reply = req.json()
 if reply['status'] != 200:
