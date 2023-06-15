@@ -1,13 +1,15 @@
 <?php
 /*
- * Usage sample of the ID card scnner from PixLab.
+ * Usage sample of the ID card scanner from PixLab. In this sample, we shall scan
+ * ID Card from Malaysia (MyKAD); therefore we will extract the user's face, date of birth,
+ * full name, address, and religion if available.
  */ 
 /*
  * PixLab PHP Client which is just a single class PHP file without any dependency that you can get from Github
  * https://github.com/symisc/pixlab-php 
  */
 require_once "pixlab.php";
-# Given a government issued ID card from Malaysia, Singapore, etc., extract the user face and parse all fields.
+# Given a government issued ID card from Malaysia, UAE, India, US Driver, Singapore, etc., extract the user face and parse all fields.
 #
 # PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
 # so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
@@ -20,7 +22,7 @@ $key = 'PIXLAB_API_KEY'; # Your PixLab API key that you can fetch from https://p
 /* Process */
 $pix = new Pixlab($key);
 if( !$pix->get('docscan',[
-	'img' => $idcard_link, # Passport scanned image
+	'img' => $idcard_link, # ID Card Scanned Image
 	'type' => 'idcard', # Type of document we are going to scan 
 	'country' => 'my' # Malysia country code
 	]) ){
