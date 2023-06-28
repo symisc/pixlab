@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Streamline KYC with PixLab’s Document Scanning (Passports, ID Cards & US Drivers License) APIs](https://levelup.gitconnected.com/streamlining-kyc-with-pixlabs-document-scanner-api-c26836fb372e?gi=9dad0fc8084e)
 * [Modern Image Processing Algorithms Overview & Implementation in C/C++](https://sod.pixlab.io/articles/modern-image-processing-algorithms-implementation.html)
 * [Building Face Authentication in React with FaceIO and Bootstrap 5](https://levelup.gitconnected.com/building-face-authentication-in-react-with-faceio-and-bootstrap-5-ba619d804e13)
 * [Facial Recognition Made Easy: How to Implement FaceIO in 5 Minutes](https://levelup.gitconnected.com/facial-recognition-made-easy-how-to-implement-faceio-in-5-minutes-c3a80e920a36)
