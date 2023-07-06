@@ -7,7 +7,7 @@ import json
 req = requests.post('https://api.pixlab.io/nsfw',
 	files = {'file': open('local_image.png', 'rb')},
 	data={
-		'key':'My_PixLab_Key',
+		'key':'PIXLAB_API_KEY', # Get your API key from the console at: https://console.pixlab.io
 	}
 )
 reply = req.json()
