@@ -7,6 +7,7 @@
 * [Building Face Authentication in React with FaceIO and Bootstrap 5](https://levelup.gitconnected.com/building-face-authentication-in-react-with-faceio-and-bootstrap-5-ba619d804e13)
 * [Facial Recognition Made Easy: How to Implement FaceIO in 5 Minutes](https://levelup.gitconnected.com/facial-recognition-made-easy-how-to-implement-faceio-in-5-minutes-c3a80e920a36)
 * [Streamlining User Experience with Facial Recognition: A Guide to FaceIO and ReactJS Integration](https://levelup.gitconnected.com/streamlining-user-experience-with-facial-recognition-a-guide-to-faceio-and-reactjs-integration-6059723913fa)
+* [Learn how to authenticate users via face recognition on your favorite no-code site builder platform](https://levelup.gitconnected.com/learn-how-to-authenticate-users-via-face-recognition-on-your-favorite-no-code-site-builder-platform-6bc1316be985)
 * [How To Use Face Recognition for Authentication on a Web Application](https://dzone.com/articles/how-to-use-face-recognition-for-authentication-in)
 * [Facial Authentication using FACEIO and Vue.Js](https://levelup.gitconnected.com/face-authentication-using-faceio-and-vue-js-319671a67d5b)
 * [Livneness Detection & Face Anti-Spoofing Security Feature Available for FACEIO](https://blog.pixlab.io/2023/02/face-spoofing-livneness-detection-and-presentation-attacks-prevention-security-feature-available-for-faceio)
