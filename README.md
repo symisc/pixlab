@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Scanning Passport Machine Readable Zone (MRZ) using PixLab's DOCSCAN API endpoint](https://blog.stackademic.com/from-mrz-to-docscan-16ab5fbf57f4)
 * [PixLab adds passive deepfake detection to FACEIO biometric authentication framework](https://www.biometricupdate.com/202308/pixlab-adds-passive-deepfake-detection-to-biometric-authentication-framework) - [**PDF Press Release**](https://faceio.net/pixlab-faceio-deep-fakes-prevention.pdf)
 * [Integrating FACEIO into a React Web Application with Tailwind CSS](https://levelup.gitconnected.com/integrating-faceio-into-a-react-web-application-with-tailwind-css-208904a394c2)
 * [Safeguarding User Content: Blur Faces and Censor NSFW Content with the PixLab APIs](https://levelup.gitconnected.com/safeguarding-user-content-blur-faces-and-censor-nsfw-content-with-pixlab-api-222564b3109)
