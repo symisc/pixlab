@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Implement a Facial Recognition Authentication System Using Fio.js, React.js and Tailwind CSS](https://blog.stackademic.com/implement-a-facial-recognition-authentication-using-react-js-and-tailwind-css-cac428639367)
 * [Scanning Passport Machine Readable Zone (MRZ) using PixLab's DOCSCAN API endpoint](https://blog.stackademic.com/from-mrz-to-docscan-16ab5fbf57f4)
 * [PixLab adds passive deepfake detection to FACEIO biometric authentication framework](https://www.biometricupdate.com/202308/pixlab-adds-passive-deepfake-detection-to-biometric-authentication-framework) - [**PDF Press Release**](https://faceio.net/pixlab-faceio-deep-fakes-prevention.pdf)
 * [Integrating FACEIO into a React Web Application with Tailwind CSS](https://levelup.gitconnected.com/integrating-faceio-into-a-react-web-application-with-tailwind-css-208904a394c2)
