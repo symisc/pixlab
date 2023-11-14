@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [PixLab Annotate 1.79 Released - Online Image Annotation, Labeling and Segmentation Tool](https://pixlab.io/annotate)
 * [How to Implement Facial Authentication with FaceIO and Tailwind CSS](https://javascript.plainenglish.io/how-to-implement-facial-authentication-with-faceio-and-tailwind-css-1989e938e5bf)
 * [Automate Your KYC Document Verification with the PixLab DOCSCAN REST API Endpoint](https://javascript.plainenglish.io/automate-your-kyc-document-verification-with-this-api-71a9d4215867)
 * [Implement a Facial Recognition Authentication System Using Fio.js, React.js and Tailwind CSS](https://blog.stackademic.com/implement-a-facial-recognition-authentication-using-react-js-and-tailwind-css-cac428639367)
