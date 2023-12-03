@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Face Authentication with HTMX](https://itnext.io/face-authentication-with-htmx-a1dffb9247e0)
+* [In the Eyes of Security: ReactJS, FaceIO, and the Future of Authentication](https://blog.stackademic.com/in-the-eyes-of-security-reactjs-faceio-and-the-future-of-authentication-62d093520f08)
 * [A Beginner's Guide to Online Image Labeling & Annotation Using PixLab Annotate](https://dev.to/unqlite_db/a-beginners-guide-to-online-image-labeling-annotation-using-pixlab-annotate-52l4)
 * [PixLab Annotate 1.79 Released - Online Image Annotation, Labeling and Segmentation Tool](https://pixlab.io/annotate)
 * [How to Implement Facial Authentication with FaceIO and Tailwind CSS](https://javascript.plainenglish.io/how-to-implement-facial-authentication-with-faceio-and-tailwind-css-1989e938e5bf)
