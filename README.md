@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Face Authentication with HTMX](https://itnext.io/face-authentication-with-htmx-a1dffb9247e0)
+* [Detect And Blur Human Faces using the PixLab AI APIs](https://dev.to/random_ti/detect-and-blur-human-faces-with-ai-in-nextjs-hg6)
 * [FACEIO for Password-less Web Authentication](https://dev.to/dev_kiran/faceio-for-password-less-web-authentication-4k2i)
 * [The Evolution of Photo Editing and the Power of Generative AI using PixLab AI Photo Editor](https://levelup.gitconnected.com/the-evolution-of-photo-editing-and-the-power-of-generative-ai-e607d6e9ac1a)
 * [Build a Face Recognition & Authentication System for Your Website using FACEIO](https://dev.to/random_ti/a-demo-of-face-recognition-authentication-in-nextjs-54g4)
