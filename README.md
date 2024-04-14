@@ -5,7 +5,7 @@
 * [Detect And Blur Human Faces using the PixLab AI APIs](https://dev.to/random_ti/detect-and-blur-human-faces-with-ai-in-nextjs-hg6)
 * [FACEIO for Password-less Web Authentication](https://dev.to/dev_kiran/faceio-for-password-less-web-authentication-4k2i)
 * [The Evolution of Photo Editing and the Power of Generative AI using PixLab AI Photo Editor](https://levelup.gitconnected.com/the-evolution-of-photo-editing-and-the-power-of-generative-ai-e607d6e9ac1a)
-* [Build a Face Recognition & Authentication System for Your Website using FACEIO](https://dev.to/random_ti/a-demo-of-face-recognition-authentication-in-nextjs-54g4)
+* [Build a Face Recognition & Authentication System for Your Website using Next.js & FACEIO](https://dev.to/random_ti/a-demo-of-face-recognition-authentication-in-nextjs-54g4)
 * [In the Eyes of Security: ReactJS, FaceIO, and the Future of Authentication](https://blog.stackademic.com/in-the-eyes-of-security-reactjs-faceio-and-the-future-of-authentication-62d093520f08)
 * [A Beginner's Guide to Online Image Labeling & Annotation Using PixLab Annotate](https://dev.to/unqlite_db/a-beginners-guide-to-online-image-labeling-annotation-using-pixlab-annotate-52l4)
 * [PixLab Annotate 1.79 Released - Online Image Annotation, Labeling and Segmentation Tool](https://pixlab.io/annotate)
