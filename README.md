@@ -2,6 +2,7 @@
 * [Face Authentication with HTMX](https://itnext.io/face-authentication-with-htmx-a1dffb9247e0)
 * [PixLab’s New Single Shot Livesness, Face Anti-Spoof & Deep-Fake Detector Model: Revolutionizing Face Authentication](https://www.biometricupdate.com/202404/pixlab-introduces-single-frame-biometric-face-authentication-to-faceio-platform)
 * [Unveiling the Future of Generative Image Editing: AI Photo Editor Reloaded](https://blog.pixlab.io/2024/02/unveiling-the-future-of-generative-image-editing-pixlab-ai-photo-editor-reloaded)
+* [Integrating FACEIO using HTMX & Express.JS](https://levelup.gitconnected.com/integrating-faceio-using-htmx-40f1553c153d)
 * [Secure, Online Face Recognition with FACEIO](https://blog.stackademic.com/implementing-secure-authentication-with-faceio-e89a485b6028)
 * [Unlocking the Potential of Facial Recognition with FACEIO](https://javascript.plainenglish.io/unlocking-the-potential-of-facial-recognition-with-faceio-d8a63c5e1cf6)
 * [Detect And Blur Human Faces using the PixLab AI APIs](https://dev.to/random_ti/detect-and-blur-human-faces-with-ai-in-nextjs-hg6)
