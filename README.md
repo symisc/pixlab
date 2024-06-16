@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [PixLab launches groundbreaking new eKYC API platform for Instant ID Documentation Scanning](https://ekyc.pixlab.io).
 * [Authenticate and verify users age in your Next.js application](https://itnext.io/authenticate-and-verify-age-of-a-user-in-your-next-js-application-f4199eef5ada)
 * [Integration of Facial Authentication (Recognition) on an Employee Dashboard using FACEIO, Next.js & Typescript](https://dev.to/envitab/integration-of-facial-authentication-recognition-on-an-employee-dashboard-using-faceio-nextjs-typescript-mpi)
 * [Face Authentication with HTMX](https://itnext.io/face-authentication-with-htmx-a1dffb9247e0)
