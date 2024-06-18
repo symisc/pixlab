@@ -7,14 +7,17 @@
  * https://github.com/symisc/pixlab-php 
  */
 require_once "pixlab.php";
-# Given a submitted/uploaded, US Driver License image document from any of the 50 US state
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
+#
+# In this example, given a submitted/uploaded, US Driver License image document from any of the 50 US state
 # crop the license holder face, and extract all document fields (see below) ready to be consumed by your application.
 #
-# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io/
-# so that any extracted face is automatically stored on your S3 bucket rather than the PixLab one.
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/cmd?id=docscan&type=usdl for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
 $us_driver_license_sample_link = 'https://www.aulicense.com/wp-content/uploads/2020/12/USA-DRIVERS-LICENSE.jpg';
 $key = 'PIXLAB_API_KEY'; # Your PixLab API key that you can fetch from https://console.pixlab.io
