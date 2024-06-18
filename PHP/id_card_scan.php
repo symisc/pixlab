@@ -9,13 +9,17 @@
  * https://github.com/symisc/pixlab-php 
  */
 require_once "pixlab.php";
-# Given a government issued ID card from Malaysia, UAE, India, US Driver, Singapore, etc., extract the user face and parse all fields.
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
-# so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
+# In this example, given a Passport document, extract the passport holder face and convert/parse all Machine Readable Zone
+# to textual content ready to be consumed by your application.
+#
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/cmd?id=docscan for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
 $idcard_link = 'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg'; /* ID card prototype: Of course, replace with a real government issued id. */
 $key = 'PIXLAB_API_KEY'; # Your PixLab API key that you can fetch from https://pixlab.io/dsahboard
@@ -44,4 +48,3 @@ if( isset($pix->json->fields->race) )     echo  "Race: ".$pix->json->fields->rac
 if( isset($pix->json->fields->birth) )    echo  "Date of birth: ".$pix->json->fields->birth . "\n";
 if( isset($pix->json->fields->birth_country) ) echo  "Country of birth: ".$pix->json->fields->birth_country . "\n";
 if( isset($pix->json->fields->nationality) )   echo  "Nationality: ".$pix->json->nationality . "\n";
-?>
