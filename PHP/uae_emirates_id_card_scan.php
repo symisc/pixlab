@@ -7,13 +7,14 @@
  * https://github.com/symisc/pixlab-php 
  */
 require_once "pixlab.php";
-# Given a government issued ID card from the UAE (emirates). Extract the holder's face and display all scanned fields.
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://console.pixlab.io/
-# so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
-# This feature should give you full control over your analyzed media assets.
+# In this example, given a government issued ID card from the UAE (emirates). Extract the holder's face and display all scanned fields.
 #
-# https://pixlab.io/cmd?id=docscan&&country=uae for additional information.
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
+# This feature should give you full control over your analyzed media files.
 
 $idcard_link = 'https://pixlab.xyz/images/pixlab-uae-id.jpg'; # ID card prototype: Of course, replace with a real government issued id
 
