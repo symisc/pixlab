@@ -5,27 +5,30 @@
  */
 require_once "pixlab.php";
 
-# Given a government issued passport document, extract the user face and parse all MRZ fields.
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
-# so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
+# In this example, given a Passport document, extract the passport holder face and convert/parse all Machine Readable Zone
+# to textual content ready to be consumed by your application.
+#
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/cmd?id=docscan for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
-/* Passport prototype: Of course, replace with a real government issued passport if you 
- * want to deal with a real world situation.
- */
+# Passport prototype: Of course, replace with a real government issued passport if you 
+# want to deal with a real world situation.
 $passport = 'https://i.stack.imgur.com/oJY2K.png';
 
-# Your PixLab key
-$key = 'My_PixLab_Key';
+# Your PixLab API Key - Get yours from https://console.pixlab.io
+$key = 'PIXLAB_API_KEY';
 
 /* Process */
 $pix = new Pixlab($key);
 if( !$pix->get('docscan',[
-	'img' => $passport,  /* Passport scanned image */ 
-	'type' => 'passport' /* Type of document we are going to scan */ 
+	'img' => $passport,  # Passport input image
+	'type' => 'passport' # Type of document we are going to scan
 	]) ){
 	echo $pix->get_error_message()."\n";
 	die;
@@ -46,4 +49,3 @@ echo "\tSex: "           . $pix->json->fields->sex . "\n";
 echo "\tDate Of Expiry: "    . $pix->json->fields->dateOfExpiry . "\n";
 echo "\tPersonal Number: "   . $pix->json->fields->personalNumber . "\n";
 echo "\tFinal Check Digit: " . $pix->json->fields->finalcheckDigit . "\n";
-?>
