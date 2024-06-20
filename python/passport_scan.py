@@ -1,28 +1,34 @@
 import requests
 import json
 
-# Given a government issued passport document, extract the user face and parse all MRZ fields.
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
-# so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
+# In this example, given a Passport document, extract the passport holder face and convert/parse all Machine Readable Zone
+# to textual content ready to be consumed by your application.
+#
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/#/cmd?id=docscan for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
-req = requests.get('https://api.pixlab.io/docscan',params={
-	'img':'https://i.stack.imgur.com/oJY2K.png', # Passport sample
-	'type':'passport', # Type of document we are a going to scan
-	'key':'Pixlab_key'
-})
+req = requests.get(
+	'https://api.pixlab.io/docscan', 
+	params={
+		'img':'https://i.stack.imgur.com/oJY2K.png', # Passport Input Image
+		'type':'passport', # Type of document we are a going to scan
+		'key':'PIXLAB_API_KEY' # Get your PixLab API Key from https://console.pixlab.io
+	}
+)
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
 else:
 	print ("User Cropped Face: " + reply['face_url'])
-	print ("MRZ Cropped Image: " + reply['mrz_img_url'])
 	print ("Raw MRZ Text: " + reply['mrz_raw_text'])
-	print ("MRZ Fields: ")
-	# Display all parsed MRZ fields
+	print ("Extracted Passport MRZ Fields:")
+	# Display all extracted MRZ fields
 	print ("\tIssuing Country: " + reply['fields']['issuingCountry'])
 	print ("\tFull Name: "       + reply['fields']['fullName'])
 	print ("\tDocument Number: " + reply['fields']['documentNumber'])
