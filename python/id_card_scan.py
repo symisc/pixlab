@@ -1,33 +1,33 @@
 import requests
 import json
 
-# Given a government issued ID card from Malaysia, Singapore, etc., extract the user face and parse all fields.
+
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# Usage sample of the ID card scanner from PixLab.
+# In this example, given a ID document from over 197+ countries, extract the ID holder face and convert/parse all Machine Readable Zone
+# to textual content ready to be consumed by your application.
 #
-# In this sample, we shall scan ID Card from Malaysia (MyKAD); 
-# therefore we will extract the user's face, date of birth, full name, address,
-# and religion if available.
-#
-# PixLab recommend that you connect your AWS S3 bucket via your dashboard at https://pixlab.io/dashboard
-# so that any cropped face or MRZ crop is stored automatically on your S3 bucket rather than the PixLab one.
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/cmd?id=docscan for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
-req = requests.get('https://api.pixlab.io/docscan',params={
-	'img':'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg', # ID Card sample
-	'type':'idcard', # We are expecting a Malaysian (MyKAD) ID card
-	'country': 'my', # Malaysia Country Code
-	'key':'PIXLAB_API_KEY' # Visit https://console.pixlab.io/ to get your API key
-})
+req = requests.get(
+	'https://api.pixlab.io/docscan',
+	params={
+		'img': 'https://buletinonline.net/v7/wp-content/uploads/2016/06/Mykad-penghuni-puan-Noraini-2.jpg', # ID Card sample
+		'type': 'idcard', # We are expecting a Malaysian (MyKAD) ID card
+		'country': 'my',  # Malaysia Country Code if known in advance
+		'key':'PIXLAB_API_KEY' # Visit https://console.pixlab.io/ to get your API key
+	})
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
 else:
 	print ("User Cropped Face: " + reply['face_url'])
-	# print ("Scanned Text: " + reply['full_text'])
-	print ("Fields: ")
+	print ("Extracted ID Fields:")
 	# Display all scanned fields
 	if "country" in reply['fields']:
 		print ("\tIssuing Country: " + reply['fields']['country'])
