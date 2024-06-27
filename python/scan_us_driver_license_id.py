@@ -1,35 +1,41 @@
 import requests
 import json
 
-# Given a submitted/uploaded, US Driver License image document from any of the 50 US state
-# crop the license holder face, and extract all document fields (see below) ready to be consumed by your application.
+# Scan over 11K ID Documents from over 197 countries using the PixLab DOCSCAN API Endpoint
+# documented at: https://ekyc.pixlab.io/docscan
 #
-# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://pixlab.io/dashboard
-# so that any extracted face is automatically stored on your S3 bucket rather than the PixLab one.
+# In this example, given a Passport document, extract the passport holder face and convert/parse all Machine Readable Zone
+# to textual content ready to be consumed by your application.
+#
+# PixLab recommend that you connect your AWS S3 bucket via the dashboard at https://console.pixlab.io
+# so that any extracted face or MRZ crop is automatically stored on your S3 bucket rather than the PixLab one.
 # This feature should give you full control over your analyzed media files.
 #
-# https://pixlab.io/cmd?id=docscan for additional information.
+# Refer to the official documentation at: https://ekyc.pixlab.io/docscan for the API reference guide and more code samples.
 
 req = requests.get(
-	'https://api.pixlab.io/docscan',params={ # swtich to POST if you want to upload the picture directly
-	'img':'https://www.aulicense.com/wp-content/uploads/2020/12/USA-DRIVERS-LICENSE.jpg', # US Driver license input image
-	'type':'usdl', # Type of document we are a going to scan, hence US driver license
-	'key':'PIXLAB_API_KEY' # Your PixLab API Key - Get yours from https://console.pixlab.io/
-})
+	'https://api.pixlab.io/docscan', 
+	params={
+		'img':'https://i.stack.imgur.com/oJY2K.png', # Passport Input Image
+		'type':'passport', # Type of document we are a going to scan
+		'key':'PIXLAB_API_KEY' # Get your PixLab API Key from https://console.pixlab.io
+	}
+)
 reply = req.json()
 if reply['status'] != 200:
 	print (reply['error'])
 else:
-	print (f"User Cropped Face: {reply['face_url']}\n")
-	print ("Extracted Fields:\n\t")
-	# Display all extracted fields from the input US driver license image
-	print (f"Issuing Country: {reply['fields']['country']}\n\t")
-	print (f"Issuing State: {reply['fields']['issuingState']}\n\t")
-	print (f"Issuing State Code: {reply['fields']['issuingStateCode']}\n\t")
-	print (f"Full Name: {reply['fields']['fullName']}")
-	print (f"License Number: {reply['fields']['licenseNumber']}\n\t")
-	print (f"Address: {reply['fields']['address']}\n\t")
-	print (f"Date Of Birth: {reply['fields']['dateOfBirth']}\n\t")
-	print (f"issuing Date: {reply['fields']['issuingDate']}\n\t")
-	print (f"Date Of Expiry: {reply['fields']['expiryDate']}\n\t")
-	print (f"Gender: {reply['fields']['gender']}\n\t")
+	print ("User Cropped Face: " + reply['face_url'])
+	print ("Raw MRZ Text: " + reply['mrz_raw_text'])
+	print ("Extracted Passport MRZ Fields:")
+	# Display all extracted MRZ fields
+	print ("\tIssuing Country: " + reply['fields']['issuingCountry'])
+	print ("\tFull Name: "       + reply['fields']['fullName'])
+	print ("\tDocument Number: " + reply['fields']['documentNumber'])
+	print ("\tCheck Digit: "   + reply['fields']['checkDigit'])
+	print ("\tNationality: "   + reply['fields']['nationality'])
+	print ("\tDate Of Birth: " + reply['fields']['dateOfBirth'])
+	print ("\tSex: "           + reply['fields']['sex'])
+	print ("\tDate Of Expiry: "    + reply['fields']['dateOfExpiry'])
+	print ("\tPersonal Number: "   + reply['fields']['personalNumber']) # Optional field and may not be returned when not set by the issuing country.
+	print ("\tFinal Check Digit: " + reply['fields']['finalcheckDigit'])
