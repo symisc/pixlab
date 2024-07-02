@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://vshall-yadav.hashnode.dev/secure-facial-authentication-with-faceio-a-quick-integration-guide-linkhttpsfaceionet)
 * [PixLab launches groundbreaking new eKYC API platform for Instant ID Documentation Scanning](https://ekyc.pixlab.io)
 * [How to Filter Image Uploads using PixLab NSFW API & Next.js](https://envitab.hashnode.dev/how-to-filter-image-uploads-using-pixlab-nsfw-api-nextjs)
 * [Authenticate and verify users age in your Next.js application](https://itnext.io/authenticate-and-verify-age-of-a-user-in-your-next-js-application-f4199eef5ada)
