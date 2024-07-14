@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Introducing DOCSCAN: The Ultimate Global ID Document Scanning API](https://medium.com/@yadavvshall/introducing-docscan-the-ultimate-global-id-document-scanning-api-a0c3ea413b5b)
 * [Liveness Detection and Facial Authentication in JavaScript with FACEIO](https://levelup.gitconnected.com/liveness-detection-and-facial-authentication-in-javascript-with-faceio-07449293c77a)
 * [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://vshall-yadav.hashnode.dev/secure-facial-authentication-with-faceio-a-quick-integration-guide-linkhttpsfaceionet)
 * [PixLab launches groundbreaking new eKYC API platform for Instant ID Documentation Scanning](https://ekyc.pixlab.io)
