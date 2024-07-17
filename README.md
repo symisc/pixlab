@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Introducting PixLab Annotate - A Game Changer in Online Image Annotation, Labeling & Segmentation](https://blog.stackademic.com/introduction-to-pixlab-annotate-285cdd853fc5)
 * [Introducing DOCSCAN: The Ultimate Global ID Document Scanning API](https://medium.com/@yadavvshall/introducing-docscan-the-ultimate-global-id-document-scanning-api-a0c3ea413b5b)
 * [Liveness Detection and Facial Authentication in JavaScript with FACEIO](https://levelup.gitconnected.com/liveness-detection-and-facial-authentication-in-javascript-with-faceio-07449293c77a)
 * [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://vshall-yadav.hashnode.dev/secure-facial-authentication-with-faceio-a-quick-integration-guide-linkhttpsfaceionet)
