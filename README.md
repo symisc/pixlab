@@ -1,8 +1,9 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Building a Secure Employee Dashboard with Facial Authentication: A Comprehensive Next.js Tutorial](https://blog.stackademic.com/building-a-secure-employee-dashboard-with-facial-authentication-a-comprehensive-next-js-tutorial-f73beffa9ca5)
 * [Introducing PixLab Annotate - A Game Changer in Online Image Annotation, Labeling & Segmentation](https://blog.stackademic.com/introduction-to-pixlab-annotate-285cdd853fc5)
 * [Introducing DOCSCAN: The Ultimate Global ID Document Scanning API](https://medium.com/@yadavvshall/introducing-docscan-the-ultimate-global-id-document-scanning-api-a0c3ea413b5b)
 * [Liveness Detection and Facial Authentication in JavaScript with FACEIO](https://levelup.gitconnected.com/liveness-detection-and-facial-authentication-in-javascript-with-faceio-07449293c77a)
-* [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://vshall-yadav.hashnode.dev/secure-facial-authentication-with-faceio-a-quick-integration-guide-linkhttpsfaceionet)
+* [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://dev.to/vyan/secure-facial-authentication-with-faceio-a-quick-integration-guide-202b)
 * [PixLab launches groundbreaking new eKYC API platform for Instant ID Documentation Scanning](https://ekyc.pixlab.io)
 * [How to Filter Image Uploads using PixLab NSFW API & Next.js](https://envitab.hashnode.dev/how-to-filter-image-uploads-using-pixlab-nsfw-api-nextjs)
 * [Authenticate and verify users age in your Next.js application](https://itnext.io/authenticate-and-verify-age-of-a-user-in-your-next-js-application-f4199eef5ada)
