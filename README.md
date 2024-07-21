@@ -5,7 +5,7 @@
 * [Liveness Detection and Facial Authentication in JavaScript with FACEIO](https://levelup.gitconnected.com/liveness-detection-and-facial-authentication-in-javascript-with-faceio-07449293c77a)
 * [Secure Facial Authentication with FACEIO: A Quick Integration Guide](https://dev.to/vyan/secure-facial-authentication-with-faceio-a-quick-integration-guide-202b)
 * [PixLab launches groundbreaking new eKYC API platform for Instant ID Documentation Scanning](https://ekyc.pixlab.io)
-* [How to Filter Image Uploads using PixLab NSFW API & Next.js](https://envitab.hashnode.dev/how-to-filter-image-uploads-using-pixlab-nsfw-api-nextjs)
+* [How to Filter Image Uploads using PixLab NSFW API & Next.js](https://blog.stackademic.com/how-to-filter-image-uploads-using-pixlab-nsfw-api-next-js-96c334601ab9)
 * [Authenticate and verify users age in your Next.js application](https://itnext.io/authenticate-and-verify-age-of-a-user-in-your-next-js-application-f4199eef5ada)
 * [Integration of Facial Authentication (Recognition) on an Employee Dashboard using FACEIO, Next.js & Typescript](https://dev.to/envitab/integration-of-facial-authentication-recognition-on-an-employee-dashboard-using-faceio-nextjs-typescript-mpi)
 * [Face Authentication with HTMX](https://itnext.io/face-authentication-with-htmx-a1dffb9247e0)
