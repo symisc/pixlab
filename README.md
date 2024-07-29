@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Scan & Verify ID documents with DOCSCAN API and Next.js](https://blog.stackademic.com/verify-ids-with-docscan-api-and-next-js-b63a16b3e259)
 * [Building a Secure Employee Dashboard with Facial Authentication: A Comprehensive Next.js Tutorial](https://blog.stackademic.com/building-a-secure-employee-dashboard-with-facial-authentication-a-comprehensive-next-js-tutorial-f73beffa9ca5)
 * [Introducing PixLab Annotate - A Game Changer in Online Image Annotation, Labeling & Segmentation](https://blog.stackademic.com/introduction-to-pixlab-annotate-285cdd853fc5)
 * [Introducing DOCSCAN: The Ultimate Global ID Document Scanning API](https://medium.com/@yadavvshall/introducing-docscan-the-ultimate-global-id-document-scanning-api-a0c3ea413b5b)
