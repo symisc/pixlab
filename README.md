@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Facial Authentication & Recognition with React.js, FACEIO, and Tailwind CSS](https://javascript.plainenglish.io/facial-authentication-recognition-with-react-js-faceio-and-tailwind-css-dd8edd6c1b47)
+* [Implementing Facial Recognition Authentication in Vue.js with FACEIO](https://blog.stackademic.com/implementing-facial-recognition-authentication-in-vue-js-with-faceio-53ce25ee68e7)
 * [Scan & Verify ID documents with DOCSCAN API and Next.js](https://blog.stackademic.com/verify-ids-with-docscan-api-and-next-js-b63a16b3e259)
 * [Revolutionizing eKYC with Pixlab DOCSCAN API Endpoint](https://blog.stackademic.com/revolutionizing-ekyc-with-pixlab-docscan-115bd4830067)
 * [Building a Secure Employee Dashboard with Facial Authentication: A Comprehensive Next.js Tutorial](https://blog.stackademic.com/building-a-secure-employee-dashboard-with-facial-authentication-a-comprehensive-next-js-tutorial-f73beffa9ca5)
