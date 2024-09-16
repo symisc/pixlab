@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [How to Build a Secure Voting Web App with FACEIO](https://blog.stackademic.com/how-to-build-a-secure-voting-web-app-with-faceio-76f0fb29c25d)
+* [Facial Authentication & Recognition with Svelte and FACEIO](https://javascript.plainenglish.io/facial-authentication-recognition-with-svelte-and-faceio-1341e1f604ab)
 * [Seamless Face Authentication in Your Next.js App with FACEIO](https://dev.to/vyan/seamless-face-authentication-in-your-nextjs-app-with-faceio-55d7)
 * [Facial Authentication & Recognition with React.js, FACEIO, and Tailwind CSS](https://javascript.plainenglish.io/facial-authentication-recognition-with-react-js-faceio-and-tailwind-css-dd8edd6c1b47)
 * [Building a Secure Web Login System using Face Recognition with Vue.js](https://javascript.plainenglish.io/building-a-secure-web-login-system-using-face-recognition-with-vue-js-5bca931b60f0)
