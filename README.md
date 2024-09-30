@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Boost Your React App’s Authentication with FACEIO](https://javascript.plainenglish.io/boost-your-react-apps-authentication-with-faceio-3c6119e54ce9)
 * [Unlock Seamless Authentication with FACEIO: A Guide for Developers](https://javascript.plainenglish.io/unlock-seamless-authentication-with-faceio-a-guide-for-developers-179a7a0b5ebf)
 * [How to Build a Secure Voting Web App with FACEIO](https://blog.stackademic.com/how-to-build-a-secure-voting-web-app-with-faceio-76f0fb29c25d)
 * [Facial Authentication & Recognition with Svelte and FACEIO](https://javascript.plainenglish.io/facial-authentication-recognition-with-svelte-and-faceio-1341e1f604ab)
