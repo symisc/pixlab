@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Enhance Image Labeling and Segmentation with PixLab Annotate](https://dev.to/unqlite_db/enhance-image-labeling-and-segmentation-with-pixlab-annotate-5e51)
+* [Integrating PixLab’s New eKYC APIs for ID Scanning](https://javascript.plainenglish.io/integrating-pixlabs-new-ekyc-platform-for-id-scanning-made-simple-1945deffcd17)
 * [Boost Your React App’s Authentication with FACEIO](https://javascript.plainenglish.io/boost-your-react-apps-authentication-with-faceio-3c6119e54ce9)
 * [Unlock Seamless Authentication with FACEIO: A Guide for Developers](https://javascript.plainenglish.io/unlock-seamless-authentication-with-faceio-a-guide-for-developers-179a7a0b5ebf)
 * [How to Build a Secure Voting Web App with FACEIO](https://blog.stackademic.com/how-to-build-a-secure-voting-web-app-with-faceio-76f0fb29c25d)
