@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Building a Secure Event Booking App with FACEIO & Svelte](https://blog.stackademic.com/building-a-secure-event-booking-app-with-faceio-and-svelte-68e77b2625d6)
+* [Passwordless Facial Authentication with FACEIO](https://javascript.plainenglish.io/passwordless-facial-authentical-with-faceio-7b942a0414b7)
 * [Enhance Image Labeling and Segmentation with PixLab Annotate](https://dev.to/unqlite_db/enhance-image-labeling-and-segmentation-with-pixlab-annotate-5e51)
 * [Integrating PixLab’s New eKYC APIs for ID Scanning](https://javascript.plainenglish.io/integrating-pixlabs-new-ekyc-platform-for-id-scanning-made-simple-1945deffcd17)
 * [Boost Your React App’s Authentication with FACEIO](https://javascript.plainenglish.io/boost-your-react-apps-authentication-with-faceio-3c6119e54ce9)
