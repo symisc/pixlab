@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Add Passwordless Facial Recognition on your website with FACEIO & Vanilla JS](https://www.linkedin.com/pulse/how-add-passwordless-facial-authentication-your-faceio-chowdhury-nh5wc)
 * [Building a Secure Event Booking App with FACEIO & Svelte](https://blog.stackademic.com/building-a-secure-event-booking-app-with-faceio-and-svelte-68e77b2625d6)
 * [Passwordless Facial Authentication with FACEIO](https://javascript.plainenglish.io/passwordless-facial-authentical-with-faceio-7b942a0414b7)
 * [Enhance Image Labeling and Segmentation with PixLab Annotate](https://dev.to/unqlite_db/enhance-image-labeling-and-segmentation-with-pixlab-annotate-5e51)
