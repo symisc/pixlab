@@ -2,6 +2,7 @@
 * [Building an Attendance System with Face Recognition Using Nextjs & FACEIO](https://medium.com/@vshall/building-an-attendance-system-with-face-recognition-using-nextjs-and-faceio-d0dad93e0fd4)
 * [Add Passwordless Facial Recognition on your website with FACEIO & Vanilla JS](https://www.linkedin.com/pulse/how-add-passwordless-facial-authentication-your-faceio-chowdhury-nh5wc)
 * [Building a Secure Event Booking App with FACEIO & Svelte](https://blog.stackademic.com/building-a-secure-event-booking-app-with-faceio-and-svelte-68e77b2625d6)
+* [Building an Attendance System Powered by Face Recognition Using React & FACEIO](https://envitab.medium.com/building-an-attendance-system-powered-by-face-recognition-using-react-and-faceio-bcda3de61c81)
 * [Passwordless Facial Authentication with FACEIO](https://javascript.plainenglish.io/passwordless-facial-authentical-with-faceio-7b942a0414b7)
 * [Enhance Image Labeling and Segmentation with PixLab Annotate](https://dev.to/unqlite_db/enhance-image-labeling-and-segmentation-with-pixlab-annotate-5e51)
 * [Integrating PixLab’s New eKYC APIs for ID Scanning](https://javascript.plainenglish.io/integrating-pixlabs-new-ekyc-platform-for-id-scanning-made-simple-1945deffcd17)
