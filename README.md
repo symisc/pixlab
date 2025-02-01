@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Building an Attendance System with Face Recognition Using Nextjs & FACEIO](https://medium.com/@vshall/building-an-attendance-system-with-face-recognition-using-nextjs-and-faceio-d0dad93e0fd4)
+* [Age Verification and Face Authentication with React & FACEIO](https://medium.com/ai-simplified-in-plain-english/age-verification-and-face-authentication-with-react-faceio-e8cd4fb6a081)
 * [Add Passwordless Facial Recognition on your website with FACEIO & Vanilla JS](https://www.linkedin.com/pulse/how-add-passwordless-facial-authentication-your-faceio-chowdhury-nh5wc)
 * [Building a Secure Event Booking App with FACEIO & Svelte](https://blog.stackademic.com/building-a-secure-event-booking-app-with-faceio-and-svelte-68e77b2625d6)
 * [Building an Attendance System Powered by Face Recognition Using React & FACEIO](https://envitab.medium.com/building-an-attendance-system-powered-by-face-recognition-using-react-and-faceio-bcda3de61c81)
