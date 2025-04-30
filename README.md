@@ -1,4 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Implementing Facial Recognition Login on Websites with FACEIO: A Step-by-Step Guide for Developers](https://javascript.plainenglish.io/implementing-facial-recognition-login-on-websites-with-faceio-a-step-by-step-guide-for-developers-6c7b09c4717d)
+* [Bulk Background Removal Tool by PixLab Officially Launched](https://bg-remove.pixlab.io)
 * [Build a Face Recognition Login System with FACEIO and Vanilla JavaScript](https://differ.blog/vshall/build-a-face-recognition-login-system-with-faceio-and-vanilla-javascript-0696b7)
 * [Building a Presence and Authentication System using face recognition with FaceIO and JavaScript](https://javascript.plainenglish.io/building-a-presence-and-authentication-system-using-face-recognition-with-faceio-and-javascript-b2189f811995)
 * [Building an Attendance System with Face Recognition Using Nextjs & FACEIO](https://medium.com/@vshall/building-an-attendance-system-with-face-recognition-using-nextjs-and-faceio-d0dad93e0fd4)
