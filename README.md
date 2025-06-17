@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Building an AI Vacation Planner Chatbot with Facial Authentication using FACEIO & Next.js](https://blog.stackademic.com/building-an-ai-vacation-planner-chatbot-with-facial-authentication-using-faceio-next-js-8aedefd4a808)
 * [Streamlining Attendance Monitoring with FACEIO and Vanilla JavaScript](https://blog.stackademic.com/streamlining-attendance-tracking-with-faceio-and-vanilla-javascript-5d5f0f482c43)
 * [Facial Recognition Login with FACEIO: A Simple Guide to Secure Authentication](https://javascript.plainenglish.io/implementing-facial-recognition-login-with-faceio-a-comprehensive-guide-f14743d58632)
 * [Convert Box - Securely Convert Files Online Between 239+ Formats in Your Browser](https://convert.pixlab.io)
