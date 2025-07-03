@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Your Ultimate Toolkit for Media Processing: A Developer’s Guide to the PixLab API](https://medium.com/@james.mrad/your-ultimate-toolkit-for-media-processing-a-developers-guide-to-the-pixlab-api-8d6651a4de2f)
 * [Add ID Document Scanning Capabilities to Your App with DOCSCAN - No SDK Required](https://dev.to/unqlite_db/add-id-document-scanning-to-your-app-with-docscan-no-sdk-required-1bf1)
 * [Building an AI Vacation Planner Chatbot with Facial Authentication using FACEIO & Next.js](https://blog.stackademic.com/building-an-ai-vacation-planner-chatbot-with-facial-authentication-using-faceio-next-js-8aedefd4a808)
 * [Streamlining Attendance Monitoring with FACEIO and Vanilla JavaScript](https://blog.stackademic.com/streamlining-attendance-tracking-with-faceio-and-vanilla-javascript-5d5f0f482c43)
