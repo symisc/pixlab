@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Boost Your Productivity with PixLab Vision Workspace](https://medium.com/ai-simplified-in-plain-english/boost-your-productivity-with-pixlab-vision-workspace-d4c1074368f2)
 * [PixLab ID Scan API: The Complete Developer's Guide to Global Document Processing](https://dev.to/vyan/pixlab-id-scan-api-the-complete-developers-guide-to-global-document-processing-17ln)
 * [Your Ultimate Toolkit for Media Processing: A Developer’s Guide to the PixLab API](https://medium.com/@james.mrad/your-ultimate-toolkit-for-media-processing-a-developers-guide-to-the-pixlab-api-8d6651a4de2f)
 * [Add ID Document Scanning Capabilities to Your App with DOCSCAN - No SDK Required](https://dev.to/unqlite_db/add-id-document-scanning-to-your-app-with-docscan-no-sdk-required-1bf1)
