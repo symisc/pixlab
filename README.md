@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Unlocking True Document Productivity with PixLab Vision Workspace](https://javascript.plainenglish.io/unlocking-true-document-productivity-with-pixlab-vision-workspace-1be1d30b341d)
 * [PixLab API Integration Guide: Quick Setup & Use](https://dev.to/unqlite_db/pixlab-api-integration-guide-quick-setup-use-4lc6)
 * [Automate Identity Document Recognition with PixLab’s ID Scan & Extract API ](https://javascript.plainenglish.io/automate-identity-document-recognition-with-pixlabs-id-scan-extract-api-c364933427af)
 * [Boost Your Productivity with PixLab Vision Workspace](https://medium.com/ai-simplified-in-plain-english/boost-your-productivity-with-pixlab-vision-workspace-d4c1074368f2)
