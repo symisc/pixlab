@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Remove Backgrounds from Images at Scale Using PixLab’s Web Tool and BGREMOVE API](https://javascript.plainenglish.io/remove-backgrounds-from-images-at-scale-using-pixlabs-web-tool-and-bgremove-api-26e88545151a)
 * [Unlocking True Document Productivity with PixLab Vision Workspace](https://javascript.plainenglish.io/unlocking-true-document-productivity-with-pixlab-vision-workspace-1be1d30b341d)
 * [PixLab API Integration Guide: Quick Setup & Use](https://dev.to/unqlite_db/pixlab-api-integration-guide-quick-setup-use-4lc6)
 * [Automate Identity Document Recognition with PixLab’s ID Scan & Extract API ](https://javascript.plainenglish.io/automate-identity-document-recognition-with-pixlabs-id-scan-extract-api-c364933427af)
