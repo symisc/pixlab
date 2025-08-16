@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Build a Facial Attendance System with FACEIO and Vanilla JavaScript](https://levelup.gitconnected.com/build-a-facial-attendance-system-with-faceio-and-vanilla-javascript-fcdb12647c36)
 * [Remove Backgrounds from Images at Scale Using PixLab’s Web Tool and BGREMOVE API](https://javascript.plainenglish.io/remove-backgrounds-from-images-at-scale-using-pixlabs-web-tool-and-bgremove-api-26e88545151a)
 * [Unlocking True Document Productivity with PixLab Vision Workspace](https://javascript.plainenglish.io/unlocking-true-document-productivity-with-pixlab-vision-workspace-1be1d30b341d)
 * [日本のDXを加速する！AI搭載の次世代ワークスペース「PixLab Vision Workspace」が働き方を変える](https://medium.com/@james.mrad/%E6%97%A5%E6%9C%AC%E3%81%AEdx%E3%82%92%E5%8A%A0%E9%80%9F%E3%81%99%E3%82%8B-ai%E6%90%AD%E8%BC%89%E3%81%AE%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9-pixlab-vision-workspace-%E3%81%8C%E5%83%8D%E3%81%8D%E6%96%B9%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B-3839db10bf9a)
