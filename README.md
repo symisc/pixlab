@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Build a Passport-Scanning Booking Form with Next.js and PixLab DOCSCAN](https://blog.stackademic.com/verify-ids-with-docscan-api-and-next-js-58e12eea592a)
 * [Build a Facial Attendance System with FACEIO and Vanilla JavaScript](https://levelup.gitconnected.com/build-a-facial-attendance-system-with-faceio-and-vanilla-javascript-fcdb12647c36)
 * [Remove Backgrounds from Images at Scale Using PixLab’s Web Tool and BGREMOVE API](https://javascript.plainenglish.io/remove-backgrounds-from-images-at-scale-using-pixlabs-web-tool-and-bgremove-api-26e88545151a)
 * [Unlocking True Document Productivity with PixLab Vision Workspace](https://javascript.plainenglish.io/unlocking-true-document-productivity-with-pixlab-vision-workspace-1be1d30b341d)
