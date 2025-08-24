@@ -13,7 +13,8 @@ import base64
 def load_image_and_encode(image_path):
     with open(image_path, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
-    return encoded_string
+    mime_type = "image/jpeg"  # Or determine the MIME type dynamically
+    return f"data:{mime_type};base64,{encoded_string}"
 
 # Source image we want to exract the face from, and output the gender & age estimation of the target person
 source_face_img_path = "path/to/face1.jpg"  # Replace with the actual path to your source face image
