@@ -21,7 +21,9 @@ async function load_image_and_encode(image_path) {
 async function verifyFaces() {
     const source_face_img_path = "path/to/face1.jpg"; // Replace with the actual path to your source face image
     const target_face_img_path = "path/to/face2.jpg"; // Replace with the actual path to your target face (to compare to source) image
-
+    // Or if the face image is on Public URL, just pass it as is:
+    const source_face_url = "https://example.com/face1.jpg"; // In case of public image URL
+    
     const payload = {
         "key": "apiKey", // Get your API key from the FACEIO Console at - https://console.faceio.net/
         "src": await load_image_and_encode(source_face_img_path),
