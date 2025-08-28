@@ -27,6 +27,8 @@ async function loadImageAndEncode(imagePath) {
 // Source image we want to exract the face from, and output the gender & age estimation of the target person
 const sourceFaceImgPath = "path/to/face1.jpg"; // Replace with the actual path to your source face image
 const apiKey = "apiKey"; // Get your API key from the FACEIO Console at - https://console.faceio.net/
+// Or if the face image is on Public URL, just pass it as is:
+const source_face_url = "https://example.com/face1.jpg"; // In case of public image URL
 
 async function verifyAgeAndGender() {
     try {
