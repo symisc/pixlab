@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Understanding FACEIO REST API BASE64 Encoding – Face Verify & Age Check](https://dev.to/unqlite_db/understanding-faceio-rest-api-face-verify-age-check-3k5h)
 * [Document Intelligence with PixLab’s Vision Language API](https://blog.stackademic.com/document-intelligence-with-pixlabs-vision-language-api-5b9ff54f480a)
 * [The All-in-One AI Workspace to End Your Daily Document Grind](https://medium.com/@james.mrad/the-all-in-one-ai-workspace-to-end-your-daily-document-grind-1ea40ce17400)
 * [Build a Passport-Scanning Booking Form with Next.js and PixLab DOCSCAN](https://blog.stackademic.com/verify-ids-with-docscan-api-and-next-js-58e12eea592a)
