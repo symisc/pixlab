@@ -1,5 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Understanding FACEIO REST API BASE64 Encoding – Face Verify & Age Check](https://dev.to/unqlite_db/understanding-faceio-rest-api-face-verify-age-check-3k5h)
+* [Reimagining Workflows with PixLab Vision Workspace](https://blog.stackademic.com/reimagining-workflows-with-pixlab-vision-workspace-4ee2db55cbc4)
 * [FACEIO: The Privacy-First Facial Recognition SDK for Password less Web Authentication](https://javascript.plainenglish.io/faceio-the-privacy-first-facial-recognition-sdk-for-password-less-web-authentication-b13881203cb7)
 * [Document Intelligence with PixLab’s Vision Language API](https://blog.stackademic.com/document-intelligence-with-pixlabs-vision-language-api-5b9ff54f480a)
 * [The All-in-One AI Workspace to End Your Daily Document Grind](https://medium.com/@james.mrad/the-all-in-one-ai-workspace-to-end-your-daily-document-grind-1ea40ce17400)
