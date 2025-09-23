@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Image Text and Watermark Removal API Released](https://pixlab.io/endpoints/text-watermark-remove-api)
 * [Understanding FACEIO REST API BASE64 Encoding – Face Verify & Age Check](https://dev.to/unqlite_db/understanding-faceio-rest-api-face-verify-age-check-3k5h)
 * [Reimagining Workflows with PixLab Vision Workspace](https://blog.stackademic.com/reimagining-workflows-with-pixlab-vision-workspace-4ee2db55cbc4)
 * [FACEIO: The Privacy-First Facial Recognition SDK for Password less Web Authentication](https://javascript.plainenglish.io/faceio-the-privacy-first-facial-recognition-sdk-for-password-less-web-authentication-b13881203cb7)
