@@ -1,6 +1,7 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
 * [Passwordless login, age verification, and liveness detection in a single SDK-Free, API powered by FACEIO](https://medium.com/ai-simplified-in-plain-english/faceio-a-privacy-first-face-recognition-sdk-for-developers-6987c8fd9d2c)
 * [Image Text and Watermark Removal API Released](https://pixlab.io/endpoints/text-watermark-remove-api)
+* [PixLab AI Photo Editor - The Future of Prompt-Based Image Editing](https://medium.com/@james.mrad/pixlab-ai-photo-editor-the-future-of-prompt-based-image-editing-836d567f39e3)
 * [FACEIO, Privacy-First Passwordless Login, Age Verification, and Liveness Detection in One Stack](https://levelup.gitconnected.com/faceio-privacy-first-passwordless-login-age-verification-and-liveness-detection-in-one-stack-3fadae47cebd)
 * [Understanding FACEIO REST API BASE64 Encoding – Face Verify & Age Check](https://dev.to/unqlite_db/understanding-faceio-rest-api-face-verify-age-check-3k5h)
 * [Reimagining Workflows with PixLab Vision Workspace](https://blog.stackademic.com/reimagining-workflows-with-pixlab-vision-workspace-4ee2db55cbc4)
