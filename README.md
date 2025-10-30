@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Streamline Identity Scanning: Docscan’s Developer-Friendly API in Action](https://medium.com/ai-simplified-in-plain-english/streamline-identity-checks-docscans-developer-friendly-api-in-action-27ac45139487)
 * [Passwordless login, age verification, and liveness detection in a single SDK-Free, API powered by FACEIO](https://medium.com/ai-simplified-in-plain-english/faceio-a-privacy-first-face-recognition-sdk-for-developers-6987c8fd9d2c)
 * [Image Text and Watermark Removal API Released](https://pixlab.io/endpoints/text-watermark-remove-api)
 * [PixLab AI Photo Editor - The Future of Prompt-Based Image Editing](https://medium.com/@james.mrad/pixlab-ai-photo-editor-the-future-of-prompt-based-image-editing-836d567f39e3)
