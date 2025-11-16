@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [PixLab DOCSCAN vs Competitors: The SDK-Free ID Scan API That Changes Everything](https://javascript.plainenglish.io/pixlab-docscan-vs-competitors-the-sdk-free-id-scan-api-that-changes-everything-fe613eac5497)
 * [DOCSCAN, The Developer-Friendly, SDK-Free REST API for Global ID Scanning and Document Extraction](https://levelup.gitconnected.com/pixlab-docscan-the-developer-friendly-sdk-free-rest-api-for-global-id-scanning-and-document-7173cfa736b9)
 * [Streamline Identity Scanning: Docscan’s Developer-Friendly API in Action](https://medium.com/ai-simplified-in-plain-english/streamline-identity-checks-docscans-developer-friendly-api-in-action-27ac45139487?sk=e2ef0f2d2c7b2b573a8ea0f870efb4db)
 * [Passwordless login, age verification, and liveness detection in a single SDK-Free, API powered by FACEIO](https://medium.com/ai-simplified-in-plain-english/faceio-a-privacy-first-face-recognition-sdk-for-developers-6987c8fd9d2c)
