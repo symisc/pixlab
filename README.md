@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [PixLab Prompt Based iOS Photo Editor Now on the App Store](https://apps.apple.com/us/app/pixlab-ai-prompt-photo-editor/id6754860845)
 * [Laravel Face Recognition and Authentication with FACEIO](https://medium.com/ai-simplified-in-plain-english/laravel-face-recognition-and-authentication-b03b3be8cd51)
 * [Building an attendance system with facial authentication](https://envitab.hashnode.dev/building-an-attendance-system-with-facial-authentication)
 * [PixLab DOCSCAN vs Competitors: The SDK-Free ID Scan API That Changes Everything](https://javascript.plainenglish.io/pixlab-docscan-vs-competitors-the-sdk-free-id-scan-api-that-changes-everything-fe613eac5497)
