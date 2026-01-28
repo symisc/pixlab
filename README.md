@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Laravel/PHP Face Recognition and Authentication with FACEIO](https://blog.stackademic.com/laravel-face-recognition-and-authentication-e97ac390010b)
 * [PixLab Prompt Based iOS Photo Editor Now on the App Store](https://apps.apple.com/us/app/pixlab-ai-prompt-photo-editor/id6754860845)
 * [Laravel Face Recognition and Authentication with FACEIO](https://medium.com/ai-simplified-in-plain-english/laravel-face-recognition-and-authentication-b03b3be8cd51)
 * [Building an attendance system with facial authentication](https://envitab.hashnode.dev/building-an-attendance-system-with-facial-authentication)
