@@ -1,4 +1,6 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Building a Face Recognition Attendance System with FACEIO and React](https://blog.stackademic.com/building-a-face-recognition-attendance-system-with-faceio-and-react-e2f85dc480f6)
+* [PixLab Video Editor Is Live: Edit Videos Online in Your Browser](https://pixlab.io/ai-video-editor)
 * [Facial Authentication in Nuxt 3 Using FACEIO](https://blog.stackademic.com/facial-authentication-in-nuxt-3-using-faceio-462e79bd7ecc)
 * [Laravel/PHP Face Recognition and Authentication with FACEIO](https://blog.stackademic.com/laravel-face-recognition-and-authentication-e97ac390010b)
 * [PixLab Prompt Based iOS Photo Editor Now on the App Store](https://apps.apple.com/us/app/pixlab-ai-prompt-photo-editor/id6754860845)
