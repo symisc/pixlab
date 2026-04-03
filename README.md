@@ -1,4 +1,7 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Introducing SyNumpy: A Standalone C++17 Library for Woking with Numpy Files and Arrays](https://blog.pixlab.io/2026/04/introducing-synumpy-a-standalone-c-plus-plus-17-library-for-reading-and-writing-numpy-npy-files)
+* [Making C++ and Python Work Together a Little Better with NumPy Files](https://dev.to/pixlab/making-c-and-python-work-together-a-little-better-with-numpy-files-1bkd)
+* [SyNumpy - A Modern C++17 Library for NumPy Files & Arrays](https://pixlab.io/numpy-cpp-library)
 * [Building a Face Recognition Attendance System with FACEIO and React](https://blog.stackademic.com/building-a-face-recognition-attendance-system-with-faceio-and-react-e2f85dc480f6)
 * [PixLab Video Editor Is Live: Edit Videos Online in Your Browser](https://pixlab.io/ai-video-editor)
 * [Facial Authentication in Nuxt 3 Using FACEIO](https://blog.stackademic.com/facial-authentication-in-nuxt-3-using-faceio-462e79bd7ecc)
