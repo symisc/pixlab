@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [How Talkie OCR Helps Vision-Impaired & Dyslexic Users Read the World Around Them](https://dev.to/unqlite_db/how-talkie-ocr-helps-vision-impaired-dyslexic-users-read-the-world-around-them-297c)
 * [Introducing DocScan for iPhone and iPad](https://blog.pixlab.io/2026/04/introducing-docscan-for-iphone-and-ipad)
 * [Introducing SyNumpy: A Standalone C++17 Library for Woking with Numpy Files and Arrays](https://blog.pixlab.io/2026/04/introducing-synumpy-a-standalone-c-plus-plus-17-library-for-reading-and-writing-numpy-npy-files)
 * [Making C++ and Python Work Together a Little Better with NumPy Files](https://dev.to/pixlab/making-c-and-python-work-together-a-little-better-with-numpy-files-1bkd)
