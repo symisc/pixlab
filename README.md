@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+* [Pixlab Video Editor: The AI-Powered Tool That Edits Videos Without Uploading Your Data](https://medium.com/ai-simplified-in-plain-english/pixlab-video-editor-the-ai-powered-tool-that-edits-videos-without-uploading-your-data-819c9151a91b)
 * [How Talkie OCR Helps Vision-Impaired & Dyslexic Users Read the World Around Them](https://dev.to/unqlite_db/how-talkie-ocr-helps-vision-impaired-dyslexic-users-read-the-world-around-them-297c)
 * [Introducing DocScan for iPhone and iPad](https://blog.pixlab.io/2026/04/introducing-docscan-for-iphone-and-ipad)
 * [Introducing SyNumpy: A Standalone C++17 Library for Woking with Numpy Files and Arrays](https://blog.pixlab.io/2026/04/introducing-synumpy-a-standalone-c-plus-plus-17-library-for-reading-and-writing-numpy-npy-files)
