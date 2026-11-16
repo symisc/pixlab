@@ -1,4 +1,8 @@
-# [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcments & Tutorials
+# [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcements & Tutorials
+* [Introducing the New FACEIO Website: Updated Docs, More Languages, and New Products](https://blog.pixlab.io/2026/10/introducing-the-new-faceio-website-updated-docs-more-languages-and-new-products)
+* [Think-Act Desktop Agent Is Now Publicly Available for Download](https://blog.pixlab.io/2026/09/think-act-for-windows-is-now-available-meet-pixlabs-agentic-ai-desktop-workspace)
+* [Introducing PixLab's Image Deblur and Image Upscale APIs](https://blog.pixlab.io/2026/11/introducing-pixlabs-image-deblur-and-image-upscale-apis)
+* [PixLab Announces Faster Background Removal, Text Watermark Removal, and Document Parsing APIs](https://blog.pixlab.io/2026/07/pixlab-announces-faster-background-removal-text-watermark-removal-and-document-parsing-apis)
 * [Pixlab Video Editor: The AI-Powered Tool That Edits Videos Without Uploading Your Data](https://medium.com/ai-simplified-in-plain-english/pixlab-video-editor-the-ai-powered-tool-that-edits-videos-without-uploading-your-data-819c9151a91b)
 * [How Talkie OCR Helps Vision-Impaired & Dyslexic Users Read the World Around Them](https://dev.to/unqlite_db/how-talkie-ocr-helps-vision-impaired-dyslexic-users-read-the-world-around-them-297c)
 * [Introducing DocScan for iPhone and iPad](https://blog.pixlab.io/2026/04/introducing-docscan-for-iphone-and-ipad)
