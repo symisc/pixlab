@@ -1,4 +1,5 @@
 # [PixLab](https://pixlab.io) & [FACEIO](https://faceio.net) Guides, Announcements & Tutorials
+* [Announcing PixLab Forensic: Free AI Content Detection with EXIF and GPS Photo Analysis](https://blog.pixlab.io/2026/11/announcing-pixlab-forensic-free-ai-content-detection-with-exif-and-gps-photo-analysis)
 * [Introducing the New FACEIO Website: Updated Docs, More Languages, and New Products](https://blog.pixlab.io/2026/10/introducing-the-new-faceio-website-updated-docs-more-languages-and-new-products)
 * [Think-Act Desktop Agent Is Now Publicly Available for Download](https://blog.pixlab.io/2026/09/think-act-for-windows-is-now-available-meet-pixlabs-agentic-ai-desktop-workspace)
 * [Introducing PixLab's Image Deblur and Image Upscale APIs](https://blog.pixlab.io/2026/11/introducing-pixlabs-image-deblur-and-image-upscale-apis)
